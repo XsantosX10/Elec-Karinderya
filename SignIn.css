@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.signIn{
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.signIn-body{
+  display: grid;
+  grid-template-columns: 28em 20em 0;
+  height: 550px;
+  width: auto;
+  background-color: #fff;
+  border-radius: 1.5em;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(39, 34, 34, 0.24);
+}
+.signIn-form{
+    padding: 2em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.company{
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+}
+.company img{
+  height: 1.2em;
+  width: auto;
+}
+.company h3{
+  font-size: 14px;
+}
+.signIn-form h2{
+  text-align: center;
+}
+.signIn-form p{
+  font-weight: 500;
+}
+.signIn-form input{
+  border: 2px solid  #fff;
+  border-radius: 0.3em;
+  width: 25em;
+  height: 2.5em;
+  margin: 0.5em;
+  font-size: 14px;
+}
+.signIn-form i{
+  color: #fff;
+  font-size: 2.2em;
+  padding: 5px 0px 5px 5px;
+}
+.signIn-form button{
+  font-size: 16px;
+  margin-top: 10px;
+  color: #fff;
+  border: 0px;
+  background-color:#E02401;
+  border-radius: 1.5em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  height: 2.2em;
+  padding: 5px;
+  cursor: pointer;
+}
+.signIn-form button:hover{
+  border: solid 2.5px #E02401;
+  background-color: #fff;
+  color:#E02401;
+  font-weight: bold;
+  padding: 3px;
+}
+.signIn-form a{
+  color:#E02401;
+  text-decoration: none;
+  font-weight: bold;
+}
+.signIn-user, .signIn-password{
+  border-radius: 0.5em;
+  margin: 2px;
+}
+.signIn-password p, .signIn-user p{
+  margin: 0 0 -5px 8px;
+}
+.signIn-user input, .signIn-password input{
+  border-bottom: 2.5px solid rgba(224, 36, 1, 0.6);
+}
+.signIn-user input:focus, .signIn-password input:focus{
+  outline: none;
+}
+.signIn-user input:focus:hover, .signIn-password input:focus:hover{
+    border-bottom: 2.5px solid rgba(224, 36, 1, 1);
+}
+
+.account{
+  text-align: center;
+  margin: 2.5em;
+}
+.account a:hover{
+  border-bottom: solid 3px #E02401;
+}
+
+
+
+
+.signIn-side{
+  padding: 2em;
+  background-color: #E02401;
+  border-top-right-radius:1.5em;
+  border-bottom-right-radius: 1.5em;
+}
+.signIn-side h1{
+  color: #fff;
+  font-size: 20px;
+}
+.companyName{
+  margin: 80px 0 0 0;
+}
+.companyName img{
+  height: 6em;
+  width: auto;
+  display: block;
+  margin: 0 auto -30px auto;
+}
+.companyName h2{
+  text-align: center;
+  color: #fff;
+  font-size: 1.8em;
+}
+.signIn-side p{
+  color: #CCCCCC;
+  font-size: 15px;
+  margin: -20px 0 0 0;
+}

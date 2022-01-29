@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, .2);
+}
+body section{
+  background-color: #fff;
+  display: block;
+  margin: 50px auto;
+  width: 32em;
+  height: 40em;
+  border-radius: 1em;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  padding: 10px;
+}
+.company{
+  display: flex;
+  align-items: center;
+  grid-gap: 10px;
+  margin-left: 10px;
+}
+.company img{
+  height: 1.5em;
+  width: auto;
+}
+.company h3{
+  font-size: 18px;
+}
+section h2{
+  margin-left: 30px;
+}
+.signUp-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signUp-form p{
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.signUp-form div input{
+  border: none;
+  border-bottom: 2.3px solid rgba(224, 36, 1, 0.6);
+  width: 23em;
+  height: 2.5em;
+  font-size: 16px;
+}
+.signUp-form input:focus{
+  outline: none;
+}
+.signUp-form input:focus:hover{
+    border-bottom: 2.5px solid rgba(224, 36, 1, 1);
+}
+
+.signUp-form button{
+  color: #fff;
+  border: none;
+  background-color:rgba(224, 36, 1, 1);
+  border-radius: 1.5em;
+  display: block;
+  width: 12em;
+  height: 2.5em;
+  padding: 2px;
+  cursor: pointer;
+  margin: 10px auto;
+  font-size: 15px;
+}
+.signUp-form button:hover{
+  border: solid 2.5px #E02401;
+  background-color: #fff;
+  color:#E02401;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.alreadyMem{
+  display: flex;
+  align-items: center;
+  grid-gap: 110px;
+}
+.alreadyMem a{
+  margin-top: 14px;
+  text-decoration: none;
+  color:#E02401;
+  font-weight: 500;
+}
+.alreadyMem a:hover{
+  border-bottom: solid 3px #E02401;
+}

@@ -1,9 +1,12 @@
 <?php
  include 'config.php';
-
+ session_start();
+ if(ISSET($_SESSION['username'])){
+   header("Location: welcome.php");
+ }
 error_reporting(0);
 
- if(isset($_POST['submit'])){ 
+ if(isset($_POST['submit'])){
    $username = $_POST['username'];
    $email = $_POST['email'];
    $password = md5($_POST['password']);

@@ -2,6 +2,9 @@
       include 'config.php';
 
       session_start();
+      if(ISSET($_SESSION['username'])){
+        header("Location: welcome.php");
+      }
 
       if(isset($_POST['submit'])){
             $email = $_POST['email'];

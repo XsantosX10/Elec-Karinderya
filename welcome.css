@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    overflow-x: hidden;
+    transition: .1s ease;
+}
+
+::selection{
+    background: #EC823A;
+    color: #f1f1f1;
+}
+#home, #specialty, #about, #SignUp{
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#about{
+  height: 70vh;
+}
+.logo{
+    width: 40px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.navbar{
+    width: 53%;
+}
+.navbar a{
+    color: black;
+    cursor: pointer;
+    margin-left: 3.5rem;
+}
+.navbar a:hover{
+    color: #EC823A;
+}
+
+button{
+    margin-left: 2.5rem;
+    color: white;
+    background-color: #EC823A;
+    cursor: pointer;
+    padding: 8px 20px;
+    background: #EC823A;
+    border-radius: 40px;
+    display: inline-block;
+}
+.dark-mode button{
+    color: white;
+    background-color: #EC823A;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+
+.dark-mode .navbar a{
+    color: white;
+}
+
+.dark-mode .navbar a:hover{
+    color: #EC823A;
+}
+
+.dark-mode .specialty .s-container .s-box{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1);
+    border: .1rem solid rgba(0, 0, 0,.3);
+}
+
+.dark-mode .specialty .s-container .s-box .s-content{
+    background: #121212;
+}
+
+.dark-mode .specialty .s-container .s-box .s-content p{
+    color: white;
+}
+
+.dark-mode .about .a-container .a-box{
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1);
+    border: .1rem solid rgba(0, 0, 0,.3);
+}
+
+.dark-mode .about .a-container .a-box .a-content{
+    background: #121212;
+}
+
+.dark-mode .about .a-container .a-box .a-content p{
+    color: white;
+}
+
+.dark-mode .media i{
+    color: white;
+}
+
+.dark-mode .media i:hover{
+    color: #EC823A;
+}
+
+.dark-mode .content a{
+    color: white;
+    background-color: #EC823A;
+}
+
+.dark-mode .SignUp .textbox h3{
+    color: #EC823A;
+}
+.dark-mode header{
+    background: #121212;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding-left: 100px;
+    left: 0;
+    background: white;
+
+}
+.s-heading{
+    position: absolute;
+    margin-top: 200px;
+    padding: 1rem;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+.s-heading span{
+    color: #EC823A;
+}
+.specialty{
+  margin-bottom: 100px;
+}
+.specialty .s-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 130px;
+    margin-left: 30px;
+
+}
+
+.specialty .s-container .s-box{
+    flex: 1 1 22rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1);
+    border: .1rem solid rgba(0, 0, 0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+
+}
+
+.specialty .s-container .s-box .s-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+
+.specialty .s-container .s-box .s-content{
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    font-size: x-small;
+}
+
+.specialty .s-container .s-box h3{
+    font-size: 2rem;
+    color: #EC823A;
+}
+
+.specialty .s-container .s-box p{
+    color: black;
+    padding: 1rem 0;
+}
+
+.specialty .s-container .s-box:hover .s-image{
+    top: 0;
+}
+
+.specialty .s-container .s-box:hover .s-content{
+    transform: translateY(100%);
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #EC823A;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #EC823A;
+}
+footer{
+    bottom: 0;
+    background: #121212;
+    width: 100%;
+    padding: 50px 0 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer .f-cont{
+    text-align: center;
+    padding-bottom: 5px;
+    color: white;
+}
+
+footer .f-cont a{
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+footer .f-cont a:hover{
+    opacity: 0.9;
+}
+
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    color: white;
+    text-align: center;
+}
+
+footer ul a{
+    color: inherit;
+    text-decoration: none;
+}
+
+footer ul li{
+    font-size: medium;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+footer ul li a:hover{
+    color: #EC823A;
+}
+
+footer p{
+    padding-top: 10px;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 10px;
+    color: white;
+}

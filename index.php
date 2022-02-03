@@ -1,147 +1,192 @@
+<?php 
+	include("function/login.php");
+	include("function/customer_signup.php");
+?>
 <!DOCTYPE html>
-<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FoodResto</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/e7b98dd161.js"> </script>
+	<title>ALPHA </title>
+	<link rel="icon" href="img/logo1.png" />
+	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/bootstrap1.js"></script>
+	<script src="js/jquery-1.7.2.min.js"></script>
+	<script src="js/carousel.js"></script>
+	<script src="js/button.js"></script>
+	<script src="js/dropdown.js"></script>
+	<script src="js/tab.js"></script>
+	<script src="js/tooltip.js"></script>
+	<script src="js/popover.js"></script>
+	<script src="js/collapse.js"></script>
+	<script src="js/modal.js"></script>
+	<script src="js/scrollspy.js"></script>
+	<script src="js/alert.js"></script>
+	<script src="js/transition.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 </head>
-<body>
+<style>
+.pantay{
+	 u
+}
+</style>
+<body style="background-color: white;">
+	<div id="header">
+		<img src="img/logo1.png">
+		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
+			<ul>
+				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
+				<li><a href="#login" class="btn btn-success"  data-toggle="modal">Login</a></li>
+			</ul>
+	</div>
+		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;position: absolute;top: 0;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+				<h3 id="myModalLabel">Login...</h3>
+			</div>
+				<div class="modal-body">
+					<form method="post">
+					<center>
+						<input type="email" name="email" placeholder="Email" style="width:250px;">
+						<input type="password" name="password" placeholder="Password" style="width:250px;">
+					</center>
+				</div>
+			<div class="modal-footer">
+				<input class="btn btn-primary" type="submit" name="login" value="Login">
+				<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+					</form>
+			</div>
+		</div>
+	
+		<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+					<h3 id="myModalLabel">Sign Up Here...</h3>
+				</div>
+					<div class="modal-body">
+						<center>
+					<form method="post">
+						<input type="text" name="firstname" placeholder="Firstname" required>
+						<input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required>
+						<input type="text" name="lastname" placeholder="Lastname" required>
+						<input type="text" name="username" placeholder="User Name">
+						<input type="email" name="email" placeholder="Email" required>
+						<input type="password" name="password" placeholder="Password" required>
+						<input type="text" name="address" placeholder="Address" style="width:430px;"required>
+						<input type="text" name="country" placeholder="Province" required>
+						<input type="text" name="zipcode" placeholder="ZIP Code" required maxlength="4">
+						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">
+						<input type="text" name="telephone" placeholder="Telephone Number" maxlength="8">
+						Date Of Birth: <input type="date" name="bday">
+						Gender: 
+						<select name="Gender">
+							<option>Male</option>
+							<option>Female</option>
+							<option>Others</option>
+						</select>
+						</center>
+					</div>
+				<div class="modal-footer">
+					<input type="submit" class="btn btn-primary" name="signup" value="Sign Up">
+					<button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Close</button>
+				</div>
+					</form>
+			</div>
+	<br>
+<div id="container">
+	<div class="nav">
+	
+			 <ul>
+				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
+				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
+			</ul>
+	</div>
+	
+	<div id="carousel">
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
+				<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
+				<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
+			</div>
+				<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+	</div>
+	
 
-    <div id="home">
-        <header>
-            <a href="#home"><img src="logo.png" alt="logo" class="logo"></a>
-            <nav class="navbar">
-                <a href="#home">Home</a>
-                <a href="#specialty">Specialty</a>
-                <a href="#about">About</a>
-                <a href="SignIn.php">Sign In</a>
-                <button onclick="myFunction()">Dark Mode</button>
-            </nav>
-        </header>
+	<div id="video">
+		<video controls autoplay width="445px" height="300px">
+			<source src="video/commercial.mp4" type="video/mp4">
+		</video>
+	</div>
 
-        <div class="content">
+	
+	<div id="content">
+		<div id="product" style="position:relative; margin-top:30%;">
+			<center><h2><legend>Feature Items</legend></h2></center>
+			<br />
+			
+			<?php 
+				
+				$query = mysqli_query($conn, "SELECT *FROM product WHERE category='feature' ORDER BY product_id DESC") or die (mysqli_error());
+				
+					while($fetch = mysqli_fetch_array($query))
+						{
+							
+						$pid = $fetch['product_id'];
+						
+						$query1 = mysqli_query($conn, "SELECT * FROM stock WHERE product_id = '$pid'") or die (mysqli_error());
+						$rows = mysqli_fetch_array($query1);
+						
+						$qty = $rows['qty'];
+						if($qty <= 5){
+						
+						}else{
+							echo "<div class='float'>";
+							echo "<center>";
+							echo "<a href='details.php?id=".$fetch['product_id']."'><img class='img-polaroid' src='photo/".$fetch['product_image']."' height = '300px' width = '300px'></a>";
+							echo " ".$fetch['product_name']."";
+							echo "<br />";
+							echo "P ".$fetch['product_price']."";
+							echo "<br />";
+							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'>  ".$fetch['product_size']."</h3>";
+							echo "</center>";
+							echo "</div>";
+						}
+							
+						}
+			?>
+		</div>
+	
+	
+	
+	</div>
 
-            <div class="textbox">
-                <h2>TALK OF THE TOWN</h2>
-                <h3>CHICKEN ADOBO</h3>
-                <dfn>Philippine adobo (from Spanish adobar: "marinade," "sauce" or "seasoning" / English: /əˈdoʊboʊ/ Tagalog pronunciation: [ɐdobo]) is a popular Filipino dish and cooking process in Philippine cuisine that involves meat, seafood, or vegetables marinated in vinegar, soy sauce, garlic, bay leaves, and black peppercorns, which is browned in oil, and simmered in the marinade. It has occasionally been considered the unofficial national dish in the Philippines. <br>
-                </dfn>
-                <a href="#specialty">See More</a>
-            </div>
-
-            <div class="img-box">
-                <img src="adobo.png" alt="adobo" class="adobo">
-            </div>
-
-        </div>
-
-        <div class="footer">
-            <div class="mediabox">
-                <div class="media">
-                    <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="specialty" class="specialty">
-        <h1 class="s-heading">Our <span>Specialty</span></h1>
-
-        <div class="s-container">
-
-            <div class="s-box">
-                <img src="menu/porksinigang.jpg" alt="sinigang" class="s-image">
-                <div class="s-content">
-                    <h3>Pork Sinigang</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-            <div class="s-box">
-                <img src="menu/icecream.jpg" alt="cream" class="s-image">
-                <div class="s-content">
-                    <h3>Ice Cream</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-            <div class="s-box">
-                <img src="menu/sisig.jpg" alt="sisig" class="s-image">
-                <div class="s-content">
-                    <h3>Sisig</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-            <div class="s-box">
-                <img src="menu/turon.jpg" alt="turon" class="s-image">
-                <div class="s-content">
-                    <h3>Turon</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-            <div class="s-box">
-                <img src="menu/Pork-Adobo.jpg" alt="adobo" class="s-image">
-                <div class="s-content">
-                    <h3>Adobo</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-            <div class="s-box">
-                <img src="menu/lecheplan.jpg" alt="lecheplan" class="s-image">
-                <div class="s-content">
-                    <h3>Leche Flan</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt vero expedita delectus tempore ipsum iste qui ut pariatur. Cum dolores saepe nesciunt ratione non veritatis quisquam dolorem autem soluta?</p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-
-
-    <div class="about" id="about">
-        <h1 class="a-heading">About <span>Us</span></h1>
-        <div class="content">
-            <div class="textbox">
-                <p>E-Karinderya “A simple, convenient, and cost-efficient web-based food market” is a website created to serve and to provide a convenient food service available for all while promoting authentic Filipino cuisines and delicacies. This aims to avoid the high possibility of being infected by the virus that is currently spreading. <br>
-                </p>
-            </div>
-        </div>
-      </div>
-
-    <footer>
-        <div class="f-cont">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-        </div>
-
-        <ul class="foot-menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#specialty">Specialty</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
-        <p class="copyright">Group SEVEN - Copyright 2022</p>
-    </footer>
-
-    <script>
-        function myFunction() {
-           var element = document.body;
-           element.classList.toggle("dark-mode");
-        }
-    </script>
-
-
-    </body>
+	<br />
+</div>
+	<br />
+	<div id="footer">
+		<div class="foot">
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-size:25px;">Alpha Inc. 2018</p>
+		</div>
+			
+			<div id="foot">
+				<h4>Links</h4>
+<ul style="list-style-type: none; ">				
+	<li>	
+						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
+						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
+						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
+						<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
+	</li>
+</ul>
+			</div>
+	</div>
+</body>
 </html>

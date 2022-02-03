@@ -1,7 +1,11 @@
 <?php
 
 session_start();
-session_destroy();
-header("Location: index.php");
+
+unset($_SESSION["uid"]);
+
+unset($_SESSION["name"]);
+
+header("location:index.php");
 
 ?>

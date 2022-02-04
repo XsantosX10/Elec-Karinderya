@@ -24,7 +24,7 @@ if(!isset($_SESSION["uid"])){
 	</head>
 <body>
 	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container-fluid">	
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
 					<span class="sr-only"> navigation toggle</span>
@@ -78,7 +78,7 @@ if(!isset($_SESSION["uid"])){
 						<li><a href="logout.php" style="text-decoration:none; color:blue;">Logout</a></li>
 					</ul>
 				</li>
-				
+
 			</ul>
 		</div>
 	</div>
@@ -109,7 +109,7 @@ if(!isset($_SESSION["uid"])){
 					<li><a href="#">Categories</a></li>
 				</div> -->
 			</div>
-			<div class="col-md-8">	
+			<div class="col-md-8">
 				<div class="row">
 					<div class="col-md-12 col-xs-12" id="product_msg">
 					</div>
@@ -132,7 +132,7 @@ if(!isset($_SESSION["uid"])){
 							</div>
 						</div> -->
 					</div>
-					<div class="panel-footer">&copy; 2016</div>
+					<div class="panel-footer">&copy; 2022</div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
@@ -149,51 +149,3 @@ if(!isset($_SESSION["uid"])){
 	</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

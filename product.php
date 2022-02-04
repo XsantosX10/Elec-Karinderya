@@ -177,7 +177,7 @@
 		</div>
 
 			<div id="foot">
-				<h4>Links</h4>
+				<h4>Social Media</h4>
 <ul style="list-style-type: none; ">
 	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>

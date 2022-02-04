@@ -28,21 +28,21 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
-			
+		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+
 			<?php
 				$id = (int) $_SESSION['id'];
-			
+
 					$query = mysql_query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysql_error());
 					$fetch = mysql_fetch_array ($query);
 			?>
-	
+
 			<ul>
 				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
 				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
-	
+
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -51,7 +51,7 @@
 					<div class="modal-body">
 						<?php
 							$id = (int) $_SESSION['id'];
-			
+
 								$query = mysql_query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysql_error());
 								$fetch = mysql_fetch_array ($query);
 						?>
@@ -89,12 +89,12 @@
 				</div>
 					</form>
 			</div>
-	
-	
-	
+
+
+
 	<br>
 <div id="container">
-	<div class="nav">	
+	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -105,7 +105,7 @@
 			</ul>
 	</div>
 	<br>
-	
+
 	<form action="https://www.sandbox.paypal.com/cgi-bin/webscr"  method="post">
         <!-- the cmd parameter is set to _xclick for a Buy Now button -->
 <?php
@@ -131,7 +131,7 @@ $charge1=50;
 $totalcharge=$charge+$charge1;
 $grandtotal=$totalcharge+$total;
 ?>
-	 
+
 	<input type="hidden" name="cmd" value="_xclick" />
         <input type="hidden" name="business" value="mamma__1330248786_biz@yahoo.com" />
         <input type="hidden" name="item_name" value="<?php echo $cusid; ?>" />
@@ -154,7 +154,7 @@ $grandtotal=$totalcharge+$total;
         <input type="hidden" name="notify_url" value="http://mammamarias.elementfx.com/ipn.php" />
         <input type="hidden" name="custom" value="any other custom field you want to pass" />
     </form>
-	
+
 </div>
 </body>
 </html>

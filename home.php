@@ -27,7 +27,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
+		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -121,13 +121,6 @@
 					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 			</div>
-		</div>
-
-
-		<div id="video">
-			<video controls autoplay width="445px" height="300px">
-				<source src="video/commercial.mp4" type="video/mp4">
-			</video>
 		</div>
 
 		<div id="product" style="position:relative; margin-top:30%;">

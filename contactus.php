@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
+		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
 			<ul>
 				<li><a href="#signup"  class="btn btn-primary" data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"   class="btn btn-success" data-toggle="modal">Login</a></li>

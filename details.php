@@ -30,7 +30,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
+		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];

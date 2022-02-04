@@ -32,21 +32,21 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
-			
+		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+
 			<?php
 				$id = (int) $_SESSION['id'];
-			
+
 					$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 					$fetch = mysqli_fetch_array ($query);
 			?>
-	
+
 			<ul>
 				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
 				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile"  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
-	
+
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -55,7 +55,7 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 					<div class="modal-body">
 						<?php
 							$id = (int) $_SESSION['id'];
-			
+
 								$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 								$fetch = mysqli_fetch_array ($query);
 						?>
@@ -93,12 +93,12 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 				</div>
 					</form>
 			</div>
-	
-	
-	
+
+
+
 	<br>
 <div id="container">
-	<div class="nav">	
+	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -108,7 +108,7 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-	
+
 	<form method="post" class="well"  style="background-color:#fff; overflow:hidden;">
 	<table class="table" style="width:50%;">
 	<label style="font-size:25px;">Summary of Order/s</label>
@@ -118,23 +118,23 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 			<th><h5>Size</h5></td>
 			<th><h5>Price</h5></td>
 		</tr>
-		
+
 		<?php
 		$t_id = $_GET['tid'];
 		$query = mysqli_query($conn, "SELECT * FROM transaction WHERE transaction_id = '$t_id'") or die (mysqli_error());
 		$fetch = mysqli_fetch_array($query);
-		
+
 		$amnt = $fetch['amount'];
 		$t_id = $fetch['transaction_id'];
-		
+
 		$query2 = mysqli_query($conn, "SELECT * FROM transaction_detail LEFT JOIN product ON product.product_id = transaction_detail.product_id WHERE transaction_detail.transaction_id = '$t_id'") or die (mysqli_error());
 		while($row = mysqli_fetch_array($query2)){
-		
+
 		$pname = $row['product_name'];
 		$psize = $row['product_size'];
 		$pprice = $row['product_price'];
 		$oqty = $row['order_qty'];
-		
+
 		echo "<tr>";
 		echo "<td>".$oqty."</td>";
 		echo "<td>".$pname."</td>";
@@ -149,22 +149,22 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 	<h4>TOTAL: Php <?php echo $amnt; ?></h4>
 	</form>
 	<a href='home.php' class='btn btn-inverse btn-lg'>Back</a>
-			
-			
-		<br />		
-		<br />	
+
+
+		<br />
+		<br />
 </div>
 <br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Alpha Inc. 2018</p>
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-			
+
 			<div id="foot ">
 				<h4>Links</h4>
-<ul style="list-style-type: none; ">				
-	<li>	
+<ul style="list-style-type: none; ">
+	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>

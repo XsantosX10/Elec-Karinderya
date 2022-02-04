@@ -1022,7 +1022,11 @@ legend {
   margin-bottom: 20px;
   font-size: 21px;
   line-height: 40px;
+<<<<<<< Updated upstream
+  color: #111;
+=======
   color: #333333;
+>>>>>>> Stashed changes
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }

@@ -2,30 +2,49 @@
 	{
 		height:70px;
 		width:100%;
+<<<<<<< Updated upstream
+		background-color:white;
+		color:#111;
+		text-indent:10px;
+		
+=======
 		background-color:#111;
 		color:#fff;
 		text-indent:10px;
 		-webkit-box-shadow:0px 0px 20px 0px black;
 		-moz-box-shadow:0px 0px 20px 0px black;
 		box-shadow:0px 0px 20px 0px black;
+>>>>>>> Stashed changes
 	}
 	
 #header img
 	{
 		position:absolute;
+<<<<<<< Updated upstream
+		width: 45px;
+		margin-left:20px;
+		margin-top:22px;
+=======
 		height:45px;
 		width:45px;
 		margin-left:20px;
 		margin-top:1em;
+>>>>>>> Stashed changes
 	}	
 	
 #header label
 	{
 		position:relative;
 		top:25px;
+<<<<<<< Updated upstream
+		color: #111;
+		text-indent:80px;
+		font-size:1.5em;
+=======
 		color:#fff;
 		text-indent:80px;
 		font-size:3em;
+>>>>>>> Stashed changes
 		clear:both;
 		font-family:arial;
 	}
@@ -59,7 +78,10 @@
 	{
 		margin:auto;
 		width:1150px;
+<<<<<<< Updated upstream
+=======
 
+>>>>>>> Stashed changes
 	}
 	
 #content
@@ -69,11 +91,19 @@
 
 .nav {
 
+<<<<<<< Updated upstream
+		font-size: 13px;
+		background-color: white;
+		padding-top: 10px;
+		padding-bottom: 4px;
+		
+=======
 		font-size:18px;
 		background-color: #314fa2;
 		padding-top: 10px;
 		padding-bottom: 4px;
 
+>>>>>>> Stashed changes
 
 	}
 .nav ul li{
@@ -84,16 +114,28 @@
 .nav ul li a
 	{
 		text-decoration:none;
+<<<<<<< Updated upstream
+		color:#111;
+		font-weight: bold;
+		font-family: century gothic;
+		padding-right: 75px;
+		padding: 0 50px 0 50px;
+=======
 		color:white;
 		font-weight: bold;
 		font-family: century gothic;
 		padding-right: 75px;
+>>>>>>> Stashed changes
 
 	}
 
 .nav ul li a:hover
 	{
+<<<<<<< Updated upstream
+		color:#F76E11;
+=======
 		color:#999;
+>>>>>>> Stashed changes
 	}	
 #carousel
 	{
@@ -144,7 +186,11 @@
 .nav1 ul li a
 	{
 		text-decoration:none;
+<<<<<<< Updated upstream
+		color:#999;
+=======
 		color:#444;
+>>>>>>> Stashed changes
 	}
 	
 .nav1 ul li a:hover
@@ -157,6 +203,10 @@
 	width:500px;
 	height:500px;	
 	}*/
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 .login_title{
 	font-size: 26px;
 	color: #0099FF;
@@ -240,11 +290,15 @@
 		width:100%;
 		height:150px;
 		clear:both;
+<<<<<<< Updated upstream
+		background: #111;
+=======
 		background:linear-gradient(#2f2f2f ,#000);
 		background:-moz-linear-gradient(#2f2f2f ,#000);
 		background:-webkit-linear-gradient(#2f2f2f ,#000);
 		-webkit-box-shadow:0px 0px 20px 0px black;
 		-moz-box-shadow:0px 0px 20px 0px black;
+>>>>>>> Stashed changes
 		box-shadow:0px 0px 20px 0px black;
 		border-top:1px solid black;
 	}
@@ -252,7 +306,11 @@
 	{
 		font-size:20px;
 		position:relative;
+<<<<<<< Updated upstream
+		margin-top:50px;
+=======
 		margin-top:30px;
+>>>>>>> Stashed changes
 		margin-left:80px;
 		float:left;
 	}
@@ -260,8 +318,14 @@
 #foot 
 	{
 		position:relative;
+<<<<<<< Updated upstream
+		float:right;
+		margin-top:15px;
+		margin-right: 80px;
+=======
 		float:left;
 		margin-left:21%;
+>>>>>>> Stashed changes
 	}
 	
 #foot ul a li

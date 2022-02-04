@@ -98,7 +98,7 @@
 	<br />
 	<br />
 
-		<div id="content">
+		<div id="content" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
 			<form method="post">
 				<table style="position:relative; left:25%;">
 					<tr>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include("function/login.php");
 	include("function/customer_signup.php");
 ?>
@@ -57,7 +57,7 @@
 					</form>
 			</div>
 		</div>
-	
+
 		<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -78,7 +78,7 @@
 						<input type="text" name="mobile" placeholder="Mobile Number" maxlength="11">
 						<input type="text" name="telephone" placeholder="Telephone Number" maxlength="8">
 						Date Of Birth: <input type="date" name="bday">
-						Gender: 
+						Gender:
 						<select name="Gender">
 							<option>Male</option>
 							<option>Female</option>
@@ -94,7 +94,7 @@
 			</div>
 <div id="container">
 	<div class="nav">
-	
+
 			 <ul>
 				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
 				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
@@ -104,7 +104,7 @@
 				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-	
+
 	<div id="carousel">
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
@@ -116,7 +116,7 @@
 				<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 		</div>
 	</div>
-	
+
 
 	<div id="video">
 		<video controls autoplay width="445px" height="300px">
@@ -124,27 +124,27 @@
 		</video>
 	</div>
 
-	
+
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:30%;">
 			<center><h2><legend>Best Sellers</legend></h2></center>
 			<br />
-			
-			<?php 
-				
+
+			<?php
+
 				$query = mysqli_query($conn, "SELECT *FROM product WHERE category='feature' ORDER BY product_id DESC") or die (mysqli_error());
-				
+
 					while($fetch = mysqli_fetch_array($query))
 						{
-							
+
 						$pid = $fetch['product_id'];
-						
+
 						$query1 = mysqli_query($conn, "SELECT * FROM stock WHERE product_id = '$pid'") or die (mysqli_error());
 						$rows = mysqli_fetch_array($query1);
-						
+
 						$qty = $rows['qty'];
 						if($qty <= 5){
-						
+
 						}else{
 							echo "<div class='float'>";
 							echo "<center>";
@@ -157,13 +157,13 @@
 							echo "</center>";
 							echo "</div>";
 						}
-							
+
 						}
 			?>
 		</div>
-	
-	
-	
+
+
+
 	</div>
 
 	<br />
@@ -174,11 +174,11 @@
 			<label style="font-size:17px;"> Copyright &copy; </label>
 			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-			
+
 			<div id="foot">
 				<h4>Social Media</h4>
-<ul style="list-style-type: none; ">				
-	<li>	
+<ul style="list-style-type: none; ">
+	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>

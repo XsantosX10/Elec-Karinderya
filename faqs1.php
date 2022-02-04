@@ -29,20 +29,20 @@
 	<div id="header">
 		<img src="img/logo1.png">
 		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
-			
+
 			<?php
 				$id = (int) $_SESSION['id'];
-			
+
 					$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 					$fetch = mysqli_fetch_array ($query);
 			?>
-	
+
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
 				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
-	
+
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -51,7 +51,7 @@
 					<div class="modal-body">
 						<?php
 							$id = (int) $_SESSION['id'];
-			
+
 								$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 								$fetch = mysqli_fetch_array ($query);
 						?>
@@ -89,12 +89,12 @@
 				</div>
 					</form>
 			</div>
-	
-	
-	
+
+
+
 	<br>
 <div id="container">
-	<div class="nav">	
+	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -104,13 +104,13 @@
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-	
+
 	<br />
 	<br />
-	
+
 		<div id="content">
 			<legend>Frequently Added Questions</legend>
-			
+
 				 <h4>DO YOU SHIP?</h4>
 					<p style="text-indent:60px;">Yes, we ship the products via LBC and 2GO only.</p>
 				<hr>
@@ -122,7 +122,7 @@
 				<hr>
 					<h3>HOW DO I PAY MY ORDERS?</h3>
 					<p style="text-indent:60px;">Through PAYPAL basis only.</p>
-				
+
 		</div>
 </div>
 	<br />
@@ -131,13 +131,13 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-size:25px;">Alpha Inc. 2018</p>
+			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-			
+
 			<div id="foot">
 				<h4>Links</h4>
-<ul style="list-style-type: none; ">				
-	<li>	
+<ul style="list-style-type: none; ">
+	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
@@ -145,7 +145,7 @@
 	</li>
 </ul>
 			</div>
-		
+
 	</div>
 </body>
 </html>

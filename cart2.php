@@ -29,21 +29,21 @@
 	<div id="header">
 		<img src="img/logo1.png">
 		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
-			
+
 			<?php
 				/*$id = (int) $_SESSION['id'];
-			
+
 					$query = mysql_query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysql_error());
 					$fetch = mysql_fetch_array ($query);
 					*/
 			?>
-	
+
 			<ul>
 				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"   data-toggle="modal">Login</a></li>
 			</ul>
 	</div>
-	
+
 	<div id="profile" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -52,7 +52,7 @@
 					<div class="modal-body">
 						<?php
 							/*$id = (int) $_SESSION['id'];
-			
+
 								$query = mysql_query ("SELECT * FROM customer WHERE customerid = '$id' ") or die (mysql_error());
 								$fetch = mysql_fetch_array ($query);
 								*/
@@ -91,19 +91,19 @@
 				</div>
 					</form>
 			</div>
-	
-	
-	
+
+
+
 	<br>
 <div id="container">
-	<div class="nav">	
+	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Product</a></li>
 				<li><a href="aboutus.php">   <i class="icon-bookmark"></i>About Us</a></li>
 			</ul>
 	</div>
-	
+
 	<form method="post" class="well" style="background-color:#fff;">
 	<table class="table">
 	<label style="font-size:25px;">My Cart</label>
@@ -117,7 +117,7 @@
 			<th><h3>Remove</h3></th>
 			<th><h3>Subtotal</h3></th>
 		</tr>
-	
+
 <?php
 
 
@@ -132,7 +132,7 @@
 
 	switch($action)
 	{
-		
+
 		case "view":
 			if (isset($_SESSION['cart'][$id]))
 			$_SESSION['cart'][$id];
@@ -150,14 +150,14 @@
 				if ($_SESSION['cart'][$id]==0)
 				unset($_SESSION['cart'][$id]);
 			}
-		break; 
+		break;
 		case "empty":
 			unset($_SESSION['cart']);
 		break;
 	}
 if (isset($_SESSION['cart']))
-	{	
-	
+	{
+
 	$total=0;
 	foreach($_SESSION['cart'] as $id => $x)
 	{
@@ -170,8 +170,8 @@ if (isset($_SESSION['cart']))
 	$product_size=$myrow['product_size'];
 	$line_cost=$price*$x;
 	$total=$total+$line_cost;
-	
-	
+
+
 		echo "<tr class='table'>";
 		echo "<td><h4><img height='70px' width='70px' src='photo/".$image."'></h4></td>";
 		echo "<td><h4><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</h4></td>";
@@ -183,7 +183,7 @@ if (isset($_SESSION['cart']))
 		echo "<td><strong><h3>P ".$line_cost."</h3></strong>";
 		echo "</tr>";
 		}
-		
+
 		echo"<tr>";
 		echo "<td></td>";
 		echo "<td></td>";
@@ -192,7 +192,7 @@ if (isset($_SESSION['cart']))
 		echo "<td><h2>TOTAL:</h2></td>";
 		echo "<td><strong><input type='hidden' value='".$total."' required name='total'><h2 class='text-danger'>P ".$total."</h2></strong></td>";
 		echo "<td></td>";
-		echo "<td><a class='btn btn-danger btn-sm pull-right' href='cart.php?id=".$id."&action=empty'><i class='fa fa-trash-o'></i> Empty cart</a></td>";		
+		echo "<td><a class='btn btn-danger btn-sm pull-right' href='cart.php?id=".$id."&action=empty'><i class='fa fa-trash-o'></i> Empty cart</a></td>";
 		echo "</tr>";
 	}
  	else
@@ -200,12 +200,12 @@ if (isset($_SESSION['cart']))
 
 ?>
 	</table>
-	
-			
+
+
 	<div class='pull-right'>
 	<a href='product.php' class='btn btn-inverse btn-lg'>Continue Shopping</a>
 	<?php echo "<button name='pay_now' type='submit' class='btn btn-inverse btn-lg' >Purchase</button>";
-	include ("function/paypal.php"); 
+	include ("function/paypal.php");
 	?>
 	</form>
 	</div>
@@ -229,22 +229,22 @@ if (isset($_SESSION['cart']))
 					</form>
 			</div>
 		</div>
-			
-			
-		<br />		
-		<br />	
+
+
+		<br />
+		<br />
 </div>
 <br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Alpha Inc. 2018</p>
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-			
+
 			<div id="foot">
 				<h4>Links</h4>
-<ul style="list-style-type: none; ">				
-	<li>	
+<ul style="list-style-type: none; ">
+	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>

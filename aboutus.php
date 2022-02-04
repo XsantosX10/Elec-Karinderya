@@ -1,4 +1,4 @@
-<?php 
+<?php
 	include("function/login.php");
 	include("function/customer_signup.php");
 ?>
@@ -34,7 +34,7 @@
 				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
 			</ul>
 	</div>
-	
+
 	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -53,7 +53,7 @@
 					</form>
 			</div>
 		</div>
-	
+
 	<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
@@ -80,10 +80,10 @@
 				</div>
 					</form>
 			</div>
-	
+
 	<br>
 <div id="container">
-	<div class="nav">	
+	<div class="nav">
 			 <ul>
 				<li><a href="index.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -93,11 +93,11 @@
 				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
-	
+
 		<img src="img/about1.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
 	<br />
 	<br />
-	
+
 	<legend>About Us</legend>
 		<div id="content">
 			<legend><h3>Mission</h3></legend>
@@ -106,21 +106,21 @@
 				<legend><h3>Vision</h3></legend>
 					<h4 style="text-indent:60px;">Alpha Inc. , the company that inspire, motivate, and give determination to the sports enthusiast.</h4>
 			<br />
-				
+
 		</div>
 	<br />
 </div>
 	<br />
 	<div id="footer">
 		<div class="foot">
-			<label style="font-size:17px;"> Copyrght &copy; </label>
-			<p style="font-size:25px;">Alpha Inc. 2018</p>
+			<label style="font-size:17px;"> Copyright &copy; </label>
+			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-			
+
 			<div id="foot">
 				<h4>Links</h4>
-	<ul style="list-style-type: none; ">				
-	<li>	
+	<ul style="list-style-type: none; ">
+	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>

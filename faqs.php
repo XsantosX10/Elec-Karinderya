@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -80,8 +80,6 @@
 				</div>
 					</form>
 			</div>
-
-	<br>
 <div id="container">
 	<div class="nav">
 			 <ul>
@@ -121,17 +119,17 @@
 			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 
-			<div id="foot">
-				<h4>Social Media</h4>
-<ul style="list-style-type: none; ">
-	<li>
+		<div id="foot">
+			<h4>Social Media</h4>
+			<ul style="list-style-type: none; ">
+				<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
-	</li>
-</ul>
-			</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>

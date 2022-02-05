@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Alpha</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">

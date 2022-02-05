@@ -5,8 +5,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA </title>
-		<link rel="icon" href="img/logo1.png" />
+	<title>E-Karinderya</title>
+	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -111,11 +111,11 @@
 
 		<div class="nav1">
 			<ul>
-				<li><a href="product1.php" class="active" style="color:#111;">Basketball</a></li>
+				<li><a href="product1.php" class="active" style="color:#111;">Main Course</a></li>
 				<li>|</li>
-				<li><a href="football1.php">Football</a></li>
+				<li><a href="football1.php">Dessert</a></li>
 				<li>|</li>
-				<li><a href="running1.php">Running</a></li>
+				<li><a href="running1.php">Drinks</a></li>
 			</ul>
 
 		</div>

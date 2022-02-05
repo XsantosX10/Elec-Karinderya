@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -30,8 +30,8 @@
 		<img src="img/logo1.png">
 		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
 			<ul>
-				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
-				<li><a href="#login"   data-toggle="modal">Login</a></li>
+				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
+				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
 			</ul>
 	</div>
 		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
@@ -115,11 +115,11 @@
 
 	<div class="nav1">
 		<ul>
-			<li><a href="product.php">Basketball</a></li>
+			<li><a href="product.php">Main Course</a></li>
 			<li>|</li>
-			<li><a href="football.php" class="active" style="color:#111;">Football</a></li>
+			<li><a href="football.php" class="active" style="color:#111;">Dessert</a></li>
 			<li>|</li>
-			<li><a href="running.php">Running</a></li>
+			<li><a href="running.php">Drinks</a></li>
 		</ul>
 	</div>
 

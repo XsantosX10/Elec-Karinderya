@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -110,7 +110,7 @@
 	<br />
 	<br />
 
-		<div id="content" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
+		<div id="content" class="container-fluid" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
 			<form method="post">
 				<table style="position:relative; left:25%;">
 					<tr>

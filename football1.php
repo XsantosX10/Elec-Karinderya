@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -37,7 +37,7 @@
 			?>
 
 			<ul>
-				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
+				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
 				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
@@ -109,11 +109,11 @@
 
 		<div class="nav1">
 			<ul>
-				<li><a href="product1.php">Basketball</a></li>
+				<li><a href="product1.php">Main Course</a></li>
 				<li>|</li>
-				<li><a href="football1.php" class="active" style="color:#111;">Football</a></li>
+				<li><a href="football.php" class="active" style="color:#111;">Dessert</a></li>
 				<li>|</li>
-				<li><a href="running1.php">Running</a></li>
+				<li><a href="running1.php">Drinks</a></li>
 			</ul>
 				<a href="cart.php"><button class="btn btn-inverse" style="right:1%; position:fixed; top:10%;"><i class="icon-shopping-cart icon-white"></i> View Cart</button></a>
 		</div>

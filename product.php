@@ -114,11 +114,11 @@
 
 	<div class="nav1">
 		<ul>
-			<li><a href="product.php" class="active" style="color:#111;">Basketball</a></li>
+			<li><a href="product.php" class="active" style="color:#111;">Main Course</a></li>
 			<li>|</li>
-			<li><a href="football.php">Football</a></li>
+			<li><a href="football.php">Dessert</a></li>
 			<li>|</li>
-			<li><a href="running.php">Running</a></li>
+			<li><a href="running.php">Drinks</a></li>
 		</ul>
 
 	</div>

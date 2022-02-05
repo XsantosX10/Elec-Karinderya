@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -112,11 +112,8 @@
 	<legend>About Us</legend>
 		<div id="content">
 			<legend><h3>Mission</h3></legend>
-					<h4 style="text-indent:60px;">To provide a high quality footwear that suit the athletes style and to be one of the leading sports footwear apparel in the country.</h4>
-			<br />
-				<legend><h3>Vision</h3></legend>
-					<h4 style="text-indent:60px;">Alpha, the company that inspire, motivate, and give determination to the sports enthusiast.</h4>
-			<br />
+			<h4 style="text-align:justify;text-indent:60px;">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </h4>
+	<br />
 
 		</div>
 	<br />

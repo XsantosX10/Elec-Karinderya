@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,26 +28,26 @@
 	<div id="header">
 		<img src="img/logo1.png">
 		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
-		
+
 			<?php
 				$id = (int) $_SESSION['id'];
-			
+
 					$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 					$fetch = mysqli_fetch_array ($query);
 			?>
-	
+
 			<ul>
 				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
 				<li><a href="#profile" href  data-toggle="modal">Welcome:&nbsp;&nbsp;&nbsp;<i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
-			</ul>	
+			</ul>
 	</div>
-<div id="container">	
-		
+<div id="container">
+
 
 							<?php
-			
+
 								$id = (int) $_SESSION['id'];
-			
+
 								$query = mysqli_query ($conn, "SELECT * FROM customer WHERE customerid = '$id' ") or die (mysqli_error());
 								$fetch = mysqli_fetch_array ($query);
 								{
@@ -73,7 +73,7 @@
 									<td>Firstname:</td><td><input type="text" name="firstname" placeholder="Firstname" required value="<?php echo $firstname; ?>"></td>
 								</tr>
 								<tr>
-									<td>M.I. :</td><td><input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required value="<?php echo $mi;?>"></td>	
+									<td>M.I. :</td><td><input type="text" name="mi" placeholder="Middle Initial" maxlength="1" required value="<?php echo $mi;?>"></td>
 								</tr>
 								<tr>
 									<td>Lastname:</td><td><input type="text" name="lastname" placeholder="Lastname" required value="<?php  echo $lastname;?>"></td>
@@ -86,8 +86,8 @@
 								</tr>
 								<tr>
 									<td>ZIP Code:</td><td><input type="text" name="zipcode" placeholder="ZIP Code" required value="<?php echo $zipcode;?>" maxlength="4"></td>
-								</tr>	
-								<tr>	
+								</tr>
+								<tr>
 									<td>Mobile Number:</td><td><input type="text" name="mobile" placeholder="Mobile Number" value="<?php echo $mobile;?>" maxlength="11"></td>
 								</tr>
 								<tr>
@@ -102,13 +102,13 @@
 								<tr>
 									<td></td><td><input type="submit" name="edit" value="Save Changes" class="btn btn-primary">&nbsp;<a href="home.php"><input type="button" name="cancel" value="Cancel" class="btn btn-danger"></a></td>
 								</tr>
-							</table>	
+							</table>
 						</center>
 					</form>
 				</div>
-				
-						
-			
+
+
+
 	<br>
 
 </div>

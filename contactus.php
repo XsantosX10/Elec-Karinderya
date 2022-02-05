@@ -83,9 +83,9 @@
 <div id="container">
 	<div class="nav">
 			 <ul>
-				<li><a href="index.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Product</a></li>
-				<li><a href="aboutus.php">   <i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product.php"><i class="icon-th-list"></i>Product</a></li>
+				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
@@ -96,7 +96,7 @@
 	<br />
 	<br />
 
-		<div id="content" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
+		<div id="content" class="container-fluid" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
 			<form method="post">
 				<table style="position:relative; left:25%;">
 					<tr>

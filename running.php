@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
-	<link rel = "stylesheet" type = "text/css" href="css/style.css" media="all">
+	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="js/bootstrap.js"></script>
@@ -30,8 +30,8 @@
 		<img src="img/logo1.png">
 		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
 			<ul>
-				<li><a href="#signup"   data-toggle="modal">Sign Up</a></li>
-				<li><a href="#login"   data-toggle="modal">Login</a></li>
+				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
+				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
 			</ul>
 	</div>
 		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
@@ -102,24 +102,23 @@
 	<br>
 <div id="container">
 	<div class="nav">
-
-			 <ul>
-				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
-				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
-				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
-			</ul>
+		<ul>
+		 <li><a href="home.php"><i class="icon-home"></i>Home</a></li>
+		 <li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
+		 <li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
+		 <li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
+		 <li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+		 <li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
+	 </ul>
 	</div>
 
 	<div class="nav1">
 		<ul>
-			<li><a href="product.php">Basketball</a></li>
+			<li><a href="product.php">Main Course</a></li>
 			<li>|</li>
-			<li><a href="football.php" >Football</a></li>
+			<li><a href="football.php">Dessert</a></li>
 			<li>|</li>
-			<li><a href="running.php" class="active" style="color:#111;">Running</a></li>
+			<li><a href="running.php" class="active" style="color:#111;">Drinks</a></li>
 		</ul>
 	</div>
 

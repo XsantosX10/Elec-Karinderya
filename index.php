@@ -106,10 +106,10 @@
 	</div>
 
 	<article class="welcomeNote">
-		<h1>Welcome to E-Karinderya</h1>
-		<p>A Simple, Convenient and Cost - Efficient Web-based Food Market </p>
+		<h1 style="color: black;">Welcome to E-Karinderya</h1>
+		<i>A Simple, Convenient and Cost - Efficient Web-based Food Market </i>
 	</article>
-
+	<br>
 	<div id="carousel">
 		<div id="myCarousel" class="carousel slide">
 			<div class="carousel-inner">
@@ -123,8 +123,8 @@
 	</div>
 
 	<div id="content">
-		<div id="product" style="position:relative; margin-top:30%;">
-			<center><h2><legend>Best Sellers</legend></h2></center>
+		<div id="product" style="position:relative; margin-top:25%;">
+			<center><h3 style="color: black;">Best Sellers</h3></center>
 			<br />
 
 			<?php

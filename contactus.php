@@ -92,11 +92,8 @@
 			</ul>
 	</div>
 
-
-	<br />
-	<br />
-
-		<div id="content" class="container-fluid" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
+	<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">Contact </span>Us</h3>
+		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
 			<form method="post">
 				<table style="position:relative; left:25%;">
 					<tr>

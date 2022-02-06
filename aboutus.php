@@ -3,7 +3,7 @@
 	include("function/customer_signup.php");
 ?>
 <!DOCTYPE html>
-<html>
+<html style="background-color: white;">
 <head>
 	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
@@ -101,7 +101,7 @@
 		</div>
 	<br />
 </div>
-	<div id="footer">
+<div id="footer" style="top: 180px;">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
 			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
@@ -114,9 +114,9 @@
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
-	</li>
-</ul>
-			</div>
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>

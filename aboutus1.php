@@ -96,29 +96,23 @@
 <div id="container">
 	<div class="nav">
 			 <ul>
-				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
-				<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
+				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
+				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a></li>
+				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
 				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
-	</div>
-		<img src="img/about1.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
-	<br />
-	<br />
 
-
-	<legend>About Us</legend>
-		<div id="content">
-			<legend><h3>Mission</h3></legend>
-			<h4 style="text-align:justify;text-indent:60px;">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </h4>
-	<br />
+			<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">About </span>Us</h3>
+				<div id="content">
+					<h4 style="text-align:justify;text-indent:60px;">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </h4>
+					<br />
 
 		</div>
 	<br />
 </div>
-	<br />
+</div>
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
@@ -127,7 +121,7 @@
 
 			<div id="foot">
 				<h4>Social Media</h4>
-<ul style="list-style-type: none; ">
+	<ul style="list-style-type: none; ">
 	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>

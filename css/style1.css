@@ -36,7 +36,6 @@
 #header ul li
 	{
 		display:inline;
-		position:relative;
 		float:right;
 		margin-right:20px;
 	}
@@ -44,12 +43,12 @@
 #header ul li a
 	{
 		text-decoration:none;
-		color:black;
+		color: #fff;
 	}
 
 #header ul li a:hover
 	{
-		color:#25e;
+		color:#fff;
 	}
 
 #container
@@ -65,28 +64,35 @@
 	}
 
 .nav {
-
 		font-size: 13px;
 		background-color: white;
 		padding-top: 10px;
 		padding-bottom: 4px;
-
-
+		display: flex;
+		justify-content: center;
 	}
+
+.nav ul{
+		border-bottom: #F76E11 solid 3px;
+}
+
 .nav ul li{
 		display:inline;
 		position:relative;
-
+		margin: 0 15px;
 }
+.nav ul i{
+		margin-top: 5px;
+}
+
 .nav ul li a
 	{
 		text-decoration:none;
 		color:#111;
 		font-weight: bold;
 		font-family: century gothic;
-		padding-right: 75px;
-		padding: 0 55px 0 50px;
-
+		padding: 0 10px 0 10px;
+		font-size: 18px;
 	}
 
 .nav ul li a:hover
@@ -95,16 +101,24 @@
 	}
 #carousel
 	{
-		position:relative;
-		float:left;
+		display: block;
+		margin-left: 75px;
 		width:700px;
 		height:300px;
-	}
+	}	
+
+.welcomeNote{
+	text-align: center;
+}
+
+.welcomeNote h1{
+	font-size: 60px;
+}
 
 .carousel
 	{
-		width:700px;
-		height:300px;
+		width:1000px;
+		height:500px;
 	}
 
 .profile

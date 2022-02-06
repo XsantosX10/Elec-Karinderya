@@ -194,7 +194,6 @@
 		</div>
 
 			<div id="foot">
-				<h4>Social Media</h4>
 					<ul>
 						<a href="http://www.facebook.com/"><li>Facebook</li></a>
 						<a href="http://www.twitter.com/"><li>Twitter</li></a>

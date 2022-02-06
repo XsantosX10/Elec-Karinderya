@@ -114,9 +114,9 @@
 		<div id="carousel">
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
-					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner1.jpg" class="carousel"></div>
-					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner2.jpg" class="carousel"></div>
-					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/banner3.jpg" class="carousel"></div>
+					<div class="active item" style="padding:0; border-bottom:0 solid #111;"><img src="img/background.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/background2.jpg" class="carousel"></div>
+					<div class="item" style="padding:0; border-bottom:0 solid #111;"><img src="img/sisig.jpg" class="carousel"></div>
 				</div>
 					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
 					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -173,7 +173,6 @@
 		</div>
 
 			<div id="foot" >
-				<h4>Social Media</h4>
 <ul style="list-style-type: none; ">
 	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>

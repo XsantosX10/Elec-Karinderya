@@ -35,7 +35,7 @@
 			</ul>
 	</div>
 
-	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
+	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;position: absolute;top: 30%; left:57%;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
 				<h3 id="myModalLabel">Login...</h3>
@@ -96,7 +96,7 @@
 	<div id="content">
 		<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">Privacy </span>Policy</h3>
 		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
-				 <h4 style="padding: 0 20px 0 20px;">Effective date: April 29,2019</h4>
+				 <h4 style="padding: 0 20px 0 20px;">Effective date: February 2022</h4>
 					<p style="text-indent:60px; padding: 10px 20px 10px 20px;">HH Herb&Health ("us","we", or "our") operates the https://www.Ekarinderya.com/ website(the "E-Karinderya").
 					This page informs you of our policies regardingthe collection, use, and disclosure of personal data when you use our Serviceand the choices you have associated with that data. Our Privacy Policy for E-Karinderya is managed through Free PrivacyPolicy.
 					We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://www.Ekarinderya.com/</p>
@@ -111,6 +111,10 @@
 								<li>First and Last Name</li>
 								<li>Number</li>
 								<li>Address</li>
+								<li>Gender</li>
+								<li>Zip Code</li>
+								<li>Province</li>
+								<li>Birthday</li>
 								<li>Cookies and Data Usage</li>
 							</ul>
 						<li>Usage Data</li>

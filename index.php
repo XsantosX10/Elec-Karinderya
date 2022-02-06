@@ -6,6 +6,9 @@
 <html>
 <head>
 	<title>E-Karinderya</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -92,22 +95,23 @@
 				</div>
 					</form>
 			</div>
-<div id="container">
-	<div class="nav">
 
-			 <ul>
-				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
-				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
-				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
-			</ul>
-	</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+					<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+					<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
+					<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
+					<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+					<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
+				</ul>
+			</div>
+<div id="container">
+	
 
 	<article class="welcomeNote">
 		<center><h3 style="color: black;">Welcome to</h3></center>
-		<h1 style="color: black;"> E-KARINDERYA</h1>
+		<h1 style="color: black;font-family: 'Poppins', sans-serif;"> E-KARINDERYA</h1>
 		<i>A Simple, Convenient and Cost - Efficient Web-based Food Market </i>
 	</article>
 	<br>

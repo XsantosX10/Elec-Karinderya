@@ -106,7 +106,8 @@
 	</div>
 
 	<article class="welcomeNote">
-		<h1 style="color: black;">Welcome to E-Karinderya</h1>
+		<center><h3 style="color: black;">Welcome to</h3></center>
+		<h1 style="color: black;"> E-KARINDERYA</h1>
 		<i>A Simple, Convenient and Cost - Efficient Web-based Food Market </i>
 	</article>
 	<br>

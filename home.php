@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -38,7 +38,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white danger"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -95,9 +95,6 @@
 	<br>
 <div id="container">
 
-
-
-
 	<div id="content">
 		<div class="nav">
 
@@ -111,6 +108,12 @@
 			</ul>
 		</div>
 
+		<article class="welcomeNote">
+			<center><h3 style="color: black;">Welcome <?php echo $fetch['firstname']; ?> to</h3></center>
+			<h1 style="color: black;"> E-KARINDERYA</h1>
+			<i>A Simple, Convenient and Cost - Efficient Web-based Food Market </i>
+		</article>
+		<br>
 		<div id="carousel">
 			<div id="myCarousel" class="carousel slide">
 				<div class="carousel-inner">
@@ -123,8 +126,8 @@
 			</div>
 		</div>
 
-		<div id="product" style="position:relative; margin-top:30%;">
-			<center><h2><legend>Featured Items</legend></h2></center>
+		<div id="product" style="position:relative; margin-top:25%;">
+		<center><h3 style="color: black;">Best Sellers</h3></center>
 			<br />
 
 			<?php

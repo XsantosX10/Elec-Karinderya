@@ -29,7 +29,7 @@
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <style>
-.pantay{	
+.pantay{
 	 u
 }
 </style>
@@ -106,9 +106,9 @@
 					<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
 				</ul>
 			</div>
-			
+
 <div id="container">
-	
+
 	<article class="welcomeNote">
 		<center><h3 style="color: black;">Welcome to</h3></center>
 		<h1 style="color: black;font-family: 'Poppins', sans-serif;"> E-KARINDERYA</h1>
@@ -155,7 +155,6 @@
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'>  ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}

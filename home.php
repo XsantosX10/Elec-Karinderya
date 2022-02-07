@@ -104,8 +104,6 @@
 			</div>
 <div id="container">
 
-	<div id="content">
-
 		<article class="welcomeNote">
 			<center><h3 style="color: black;">Welcome <?php echo $fetch['firstname']; ?> to</h3></center>
 			<h1 style="color: black;font-family: 'Poppins', sans-serif;"> E-KARINDERYA</h1>
@@ -151,7 +149,6 @@
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}

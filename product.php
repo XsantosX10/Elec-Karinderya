@@ -112,7 +112,7 @@
 			</div>
 
 <div id="container">
-	
+
 	<div class="nav1">
 		<ul>
 			<li><a href="product.php" class="active" style="color:#111;">Main Course</a></li>
@@ -153,7 +153,6 @@
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}
@@ -173,7 +172,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 
 			<div id="foot">

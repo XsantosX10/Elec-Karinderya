@@ -89,10 +89,6 @@
 					</form>
 			</div>
 
-
-
-
-	<br>
 <div id="container">
 
 	<div class="nav">
@@ -146,7 +142,6 @@
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}

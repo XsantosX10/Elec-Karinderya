@@ -88,11 +88,7 @@
 				</div>
 					</form>
 			</div>
-
-
-
-
-	<br>
+			
 <div id="container">
 
 	<div class="nav">

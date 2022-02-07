@@ -27,7 +27,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">ALPHA</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -66,8 +66,9 @@
 						?>
 				<div id="account">
 					<form method="POST" action="function/edit_customer.php">
+					<h3 style="margin-left: 23%;">Edit My Account...</h3>
 						<center>
-						<h3>Edit My Account...</h3>
+						
 							<table>
 								<tr>
 									<td>Firstname:</td><td><input type="text" name="firstname" placeholder="Firstname" required value="<?php echo $firstname; ?>"></td>

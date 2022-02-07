@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
 #header
 	{
 		height:50px;
@@ -27,7 +34,7 @@
 		text-indent:80px;
 		font-size:30px;
 		clear:both;
-		font-family:arial;
+		font-family: 'Poppins', sans-serif;
 	}
 
 #header ul
@@ -47,12 +54,12 @@
 #header ul li a
 	{
 		text-decoration:none;
-		color:black;
+		color:white;
 	}
 
 #header ul li a:hover
 	{
-		color:white;
+		color: white;
 	}
 
 #container
@@ -86,7 +93,7 @@
 		text-decoration:none;
 		color:white;
 		font-weight: bold;
-		font-family: century gothic;
+		font-family: 'Poppins', sans-serif;
 		padding-right: 82px;
 
 	}
@@ -160,7 +167,7 @@
 .login_title{
 	font-size: 26px;
 	color: #0099FF;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	border-bottom: dashed 1px #CCCCCC;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 	margin: 15px 20px 5px;

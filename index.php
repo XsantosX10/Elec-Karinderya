@@ -36,7 +36,7 @@
 <body style="background-color: white;">
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 			<ul>
 				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login" class="btn btn-success"  data-toggle="modal">Login</a></li>
@@ -106,9 +106,9 @@
 					<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
 				</ul>
 			</div>
+			
 <div id="container">
 	
-
 	<article class="welcomeNote">
 		<center><h3 style="color: black;">Welcome to</h3></center>
 		<h1 style="color: black;font-family: 'Poppins', sans-serif;"> E-KARINDERYA</h1>
@@ -174,7 +174,7 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 			<div id="foot">
 <ul style="list-style-type: none; ">

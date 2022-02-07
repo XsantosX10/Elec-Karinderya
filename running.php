@@ -7,6 +7,9 @@
 <head>
 	<title>E-Karinderya</title>
 	<link rel="icon" href="img/logo1.png" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -28,7 +31,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 			<ul>
 				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
@@ -37,7 +40,7 @@
 		<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">Login...</h3>
+				<h3 id="myModalLabel" style="color:black;">Login<span style="color: #F76E11;"> ...</span></h3>
 			</div>
 				<div class="modal-body">
 					<form method="post">
@@ -76,7 +79,7 @@
 		<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">Sign Up Here...</h3>
+					<h3 id="myModalLabel" style="color: black;">Sign Up<span style="color: #F76E11;"> Here ... </span></h3>
 				</div>
 					<div class="modal-body">
 						<center>

@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 			<ul>
 				<li><a href="#signup"   class="btn btn-primary" data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
@@ -38,7 +38,7 @@
 	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;position: absolute;top: 30%; left:57%;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">Login...</h3>
+				<h3 id="myModalLabel" style="color:black;">Login<span style="color: #F76E11;"> ...</span></h3>
 			</div>
 				<div class="modal-body">
 					<form method="post">
@@ -57,7 +57,7 @@
 	<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">Sign Up Here...</h3>
+					<h3 id="myModalLabel" style="color: black;">Sign Up<span style="color: #F76E11;"> Here ... </span></h3>
 				</div>
 					<div class="modal-body">
 						<center>
@@ -81,23 +81,24 @@
 					</form>
 			</div>
 
+			<div class="nav">
+				<ul>
+					<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+					<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+					<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
+					<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
+					<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+					<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
+				</ul>
+			</div>
+
 <div id="container">
-	<div class="nav">
-			 <ul>
-				<li><a href="index.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"> 			 <i class="icon-th-list"></i>Product</a></li>
-				<li><a href="aboutus.php">   <i class="icon-bookmark"></i>About Us</a></li>
-				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
-			</ul>
-	</div>
 
 	<div id="content">
-		<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">Privacy </span>Policy</h3>
+		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Privacy </span>Policy</h3>
 		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
 				 <h4 style="padding: 0 20px 0 20px;">Effective date: February 2022</h4>
-					<p style="text-indent:60px; padding: 10px 20px 10px 20px;">HH Herb&Health ("us","we", or "our") operates the https://www.Ekarinderya.com/ website(the "E-Karinderya").
+					<p style="text-indent:60px; padding: 10px 20px 10px 20px;">E-karinderya ("us","we", or "our") operates the https://www.Ekarinderya.com/ website(the "E-Karinderya").
 					This page informs you of our policies regardingthe collection, use, and disclosure of personal data when you use our Serviceand the choices you have associated with that data. Our Privacy Policy for E-Karinderya is managed through Free PrivacyPolicy.
 					We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from https://www.Ekarinderya.com/</p>
 				<h4 style="padding: 0 20px 0 20px;">Information Collection and Use</h4>
@@ -177,7 +178,7 @@
 <div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 
 		<div id="foot">

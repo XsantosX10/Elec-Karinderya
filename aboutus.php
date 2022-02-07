@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 			<ul>
 				<li><a href="#signup" class="btn btn-primary"  data-toggle="modal">Sign Up</a></li>
 				<li><a href="#login"  class="btn btn-success" data-toggle="modal">Login</a></li>
@@ -38,7 +38,7 @@
 	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;position: absolute;top: 30%; left:57%;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">Login...</h3>
+				<h3 id="myModalLabel" style="color:black;">Login<span style="color: #F76E11;"> ...</span></h3>
 			</div>
 				<div class="modal-body">
 					<form method="post">
@@ -57,7 +57,7 @@
 	<div id="signup" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:700px;">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-					<h3 id="myModalLabel">Sign Up Here...</h3>
+					<h3 id="myModalLabel" style="color: black;">Sign Up<span style="color: #F76E11;"> Here ... </span></h3>
 				</div>
 					<div class="modal-body">
 						<center>
@@ -81,21 +81,22 @@
 					</form>
 			</div>
 
-<div id="container">
-	<div class="nav">
-			 <ul>
-				<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
-				<li><a href="product.php"><i class="icon-th-list"></i>Product</a></li>
-				<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
-				<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
-			</ul>
-	</div>
+			<div class="nav">
+				<ul>
+					<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
+					<li><a href="product.php"><i class="icon-th-list"></i>Product</a>
+					<li><a href="aboutus.php"><i class="icon-bookmark"></i>About Us</a></li>
+					<li><a href="contactus.php"><i class="icon-inbox"></i>Contact Us</a></li>
+					<li><a href="privacy.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+					<li><a href="faqs.php"><i class="icon-question-sign"></i>FAQs</a></li>
+				</ul>
+			</div>
 
-	<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">About </span>Us</h3>
+<div id="container">
+
+	<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">About </span>Us</h3>
 		<div id="content">
-			<h4 style="text-align:justify;text-indent:60px;">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </h4>
+			<p style="text-align:justify;text-indent:60px; color:black; ">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </p>
 			<br />
 
 		</div>

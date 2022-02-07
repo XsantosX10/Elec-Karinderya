@@ -87,12 +87,12 @@
 }
 
 .nav ul li{
-		display:inline;
+		display:inline-block;
 		position:relative;
 		margin: 0 15px;
 }
 .nav ul i{
-		margin-top: 5px;
+		margin-top: 3px;
 		position: relative;
 }
 
@@ -264,34 +264,6 @@
 .foot{
 	margin-top: 30px;
 }
-
-/*
-
-#foot
-	{
-		position:relative;
-		float:right;
-		margin-top:15px;
-		margin-right: 80px;
-	}
-
-#foot ul a li
-	{
-		text-decoration:none;
-		display:block;
-		color:#fff;
-	}
-
-#foot ul a li:hover
-	{
-		-webkit-box-shadow:2px 2px 2px black;
-		-moz-box-shadow:2px 2px 2px black;
-		box-shadow:2px 2px 2px black;
-		-webkit-border-radius:5px;
-		-moz-border-radius:5px;
-		border-radius:5px;
-		position:relative;
-	}*/
 
 #develop
 	{

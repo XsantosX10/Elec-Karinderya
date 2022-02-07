@@ -6,6 +6,7 @@
 <html>
 <head>
 	<title>E-Karinderya</title>
+	<link rel="icon" href="img/logo1.png" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

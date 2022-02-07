@@ -3365,7 +3365,7 @@
  }
  
  .btn-success {
-  color: #f89406;
+  color: white;
   background-color: #f89406;
   border-color: #f89406;
  }
@@ -3378,7 +3378,7 @@
  } */
 
 .btn-success:hover{
-  color: #ec900f;
+  color: white;
   background-color: #ec900f;
   border-color: #ec900f;
  }

@@ -107,9 +107,9 @@
 						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">Delivery time varies by location and by time of day. However, you will be notified when your order is ready or when it is picked up. </p>
 
 						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">You will also be notified if there is an unusual delay with your order preparation or delivery.</p>
-			</div>
 		</div>
 	</div>
+</div>
 	
 	<br />
 

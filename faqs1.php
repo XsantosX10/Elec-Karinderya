@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -39,7 +39,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -89,12 +89,7 @@
 				</div>
 					</form>
 			</div>
-
-
-
-	<br>
-<div id="container">
-	<div class="nav">
+			<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -105,44 +100,43 @@
 			</ul>
 	</div>
 
-	<div id="container">
+<div id="container">
 
-		<div id="content">
-			<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;">Frequently <span style="color: #f89406;">Asked </span>Questions</h3>
-			<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
-					 <h4 style="padding: 0 20px 0 20px;">What payment methods can I use?</h4>
-						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">For payment on E-Karinderya, we accept only Cash On Delivery in mods of payment.</p>
+	<div id="content">
+		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;">Frequently <span style="color: #f89406;">Asked </span>Questions</h3>
+		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
+				 <h4 style="padding: 0 20px 0 20px;">What payment methods can I use?</h4>
+					<p style="text-indent:60px; padding: 10px 20px 10px 20px;">For payment on E-Karinderya, we accept only Cash On Delivery in mods of payment.</p>
 
-					<h4 style="padding: 0 20px 0 20px;">How do I sign up as user?</h4>
-							<p style="text-indent:60px; padding: 10px 20px 10px 20px;"">To sign up in E-Karinderya webpage you need to provide some needed credential and especially email and cellphone number.</p>
+				<h4 style="padding: 0 20px 0 20px;">How do I sign up as user?</h4>
+						<p style="text-indent:60px; padding: 10px 20px 10px 20px;"">To sign up in E-Karinderya webpage you need to provide some needed credential and especially email and cellphone number.</p>
 
-					<h4 style="padding: 0 20px 0 20px;">How long is delivery time?</h4>
-							<p style="text-indent:60px; padding: 10px 20px 10px 20px;">Delivery time varies by location and by time of day. However, you will be notified when your order is ready or when it is picked up. </p>
+				<h4 style="padding: 0 20px 0 20px;">How long is delivery time?</h4>
+						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">Delivery time varies by location and by time of day. However, you will be notified when your order is ready or when it is picked up. </p>
 
-							<p style="text-indent:60px; padding: 10px 20px 10px 20px;">You will also be notified if there is an unusual delay with your order preparation or delivery.</p>
-				</div>
-			</div>
+						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">You will also be notified if there is an unusual delay with your order preparation or delivery.</p>
 		</div>
+	</div>
+</div>
+	
 	<br />
-<div>
-	<br />
+
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 
-			<div id="foot">
-<ul style="list-style-type: none; ">
-	<li>
+		<div id="foot">
+			<ul style="list-style-type: none; ">
+				<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
 						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
 						<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
-	</li>
-</ul>
-			</div>
-
+				</li>
+			</ul>
+		</div>
 	</div>
 </body>
 </html>

@@ -8,8 +8,8 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 ?>
 <html>
 <head>
-	<title>ALPHA</title>
-	<link rel="icon" href="img/logo1.jpg" />
+	<title>E-Karinderya</title>
+	<link rel="icon" href="img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -32,7 +32,7 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -42,8 +42,8 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 			?>
 
 			<ul>
-				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile"  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile"  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -97,7 +97,6 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 
 
 	<br>
-<div id="container">
 	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
@@ -108,6 +107,8 @@ $paypal_id='lappayjohn@gmail.com'; // Business email ID
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 	</div>
+<div id="container">
+	
 
 	<form method="post" class="well"  style="background-color:#fff; overflow:hidden;">
 	<table class="table" style="width:50%;">

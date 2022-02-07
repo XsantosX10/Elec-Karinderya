@@ -30,7 +30,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -41,7 +41,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -92,11 +92,7 @@
 					</form>
 			</div>
 
-
-
-	<br>
-<div id="container">
-	<div class="nav">
+		<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
@@ -105,7 +101,9 @@
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
-	</div>
+		</div>
+<div id="container">
+	
 		<?php
 			if(isset($_GET['id'])){
 			$id = $_GET['id'];
@@ -147,7 +145,7 @@
 						<br />
 						<h4>Total: P <?php echo $row['product_price']; ?> </h4>
 						<br />
-						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of AlphaWare Inc.
+						<input type="checkbox" required> I Agree the <a href="#terms" data-toggle="modal"> Terms and Condition</a> of E-Karinderya
 					</center>
 				</div>
 			<div class="modal-footer">
@@ -163,7 +161,7 @@
 		<div id="terms" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="width:400px;">
 			<div class="modal-header">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
-				<h3 id="myModalLabel">AlphaWare Inc. Terms and Condition</h3>
+				<h3 id="myModalLabel">E-Karinderya Terms and Condition</h3>
 			</div>
 				<div class="modal-body">
 					<ul>
@@ -190,20 +188,9 @@
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
 		</div>
-
 			<div id="foot">
-					<ul>
-						<a href="http://www.facebook.com/"><li>Facebook</li></a>
-						<a href="http://www.twitter.com/"><li>Twitter</li></a>
-						<a href="http://www.pinterest.com/"><li>Pinterest</li></a>
-						<a href="http://www.tumblr.com/"><li>Tumblr</li></a>
-					</ul>
-			</div>
-
-			<div id="develop">
-				<h4>Developed By:</h4>
 <ul style="list-style-type: none; ">
 	<li>
 						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>

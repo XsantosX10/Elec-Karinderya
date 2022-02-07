@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -38,9 +38,8 @@
 			?>
 
 			<ul>
-				<?php echo "<a href='cart.php?id=".$id."&action=view'><button class='btn btn-inverse' style='right:1%; position:fixed; top:10%;'><i class='icon-shopping-cart icon-white'></i> View Cart</button></a>" ?>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -91,15 +90,8 @@
 					</form>
 			</div>
 
-
-
-
-	<br>
-<div id="container">
-
-	<div class="nav">
-
-			 <ul>
+		<div class="nav">
+			<ul>
 				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
 				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
@@ -108,6 +100,9 @@
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 		</div>
+
+<div id="container">
+	<?php echo "<a href='cart.php?id=".$id."&action=view'><button class='btn btn-inverse' style='right:3%; position:fixed; bottom:10%; border-radius:100px;'><i class='icon-shopping-cart icon-white'></i></button></a>" ?>
 
 		<div class="nav1">
 			<ul>

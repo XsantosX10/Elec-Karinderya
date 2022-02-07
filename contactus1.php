@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -39,7 +39,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -89,11 +89,6 @@
 				</div>
 					</form>
 			</div>
-
-
-
-	<br>
-<div id="container">
 	<div class="nav">
 			 <ul>
 				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
@@ -103,28 +98,26 @@
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
-	</div>
+</div>
+<div id="container">
 
-
-	<div id="container">
-
-		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
-			<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
-				<form method="post">
-					<table style="position:relative; left:25%;">
-						<tr>
-							<td style="font-size:20px;">Email:</td><td><input type="email" name="email" placeholder="Email" style="width:400px;"></td>
-						</tr>
-						<tr>
-							<td style="font-size:20px;">Message:</td><td><textarea name="message" style="width:400px; height:300px;" required></textarea></td>
-						</tr>
-						<tr>
-							<td></td><td><button class="btn btn-info" name="send" style="width:300px;"><i class="icon icon-ok icon-white"></i>Submit</button>&nbsp;<a href="index.php"><button class="btn btn-danger" style="width:110px;"><i class="icon icon-remove icon-white"></i>Cancel</button></a></td>
-						</tr>
-					</table>
-				</form>
-			</div>
-			<?php
+	<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
+		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
+			<form method="post">
+				<table style="position:relative; left:25%;">
+					<tr>
+						<td style="font-size:20px;">Email:</td><td><input type="email" name="email" placeholder="Email" style="width:400px;"></td>
+					</tr>
+					<tr>
+						<td style="font-size:20px;">Message:</td><td><textarea name="message" style="width:400px; height:300px;" required></textarea></td>
+					</tr>
+					<tr>
+						<td></td><td><button class="btn btn-info" name="send" style="width:300px;"><i class="icon icon-ok icon-white"></i>Submit</button>&nbsp;<a href="index.php"><button class="btn btn-danger" style="width:110px;"><i class="icon icon-remove icon-white"></i>Cancel</button></a></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<?php
 
 
 				if(isset($POST['send']));
@@ -132,17 +125,17 @@
 					@$email = $_POST['email'];
 					@$message = $_POST['message'];
 
-					mysqli_query ($conn, "INSERT INTO `contact` (email, message) VALUES ('$email', '$message')") or die (mysql_error());
-				}
-			?>
+				mysqli_query ($conn, "INSERT INTO `contact` (email, message) VALUES ('$email', '$message')") or die (mysql_error());
+			}
+		?>
 
-		<br />
-	</div>
+	<br />
+</div>
 	<br />
 	<div id="footer">
 		<div class="foot">
 			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+			<p style="font-weight: bold;font-family: 'Poppins', sans-serif; font-size: 25px;">Group 7 - 2022</p>
 		</div>
 
 			<div id="foot">

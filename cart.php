@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -38,8 +38,8 @@
 			?>
 
 			<ul>
-				<li><a href="function/logout.php"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile"  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -90,33 +90,32 @@
 					</form>
 			</div>
 
+			<div class="nav">
+				<ul>
+					<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
+					<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
+					<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
+					<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
+					<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
+					<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
+				</ul>
+			</div>
 
-
-	<br>
 <div id="container">
-	<div class="nav">
-			 <ul>
-				<li><a href="home.php">   <i class="icon-home"></i>Home</a></li>
-				<li><a href="product1.php"> 			 <i class="icon-th-list"></i>Product</a></li>
-				<li><a href="aboutus1.php">   <i class="icon-bookmark"></i>About Us</a></li>
-				<li><a href="contactus1.php"><i class="icon-inbox"></i>Contact Us</a></li>
-				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
-				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
-			</ul>
-	</div>
+	
 
 	<form method="post" class="well" style="background-color:#fff;">
 	<table class="table">
 	<label style="font-size:25px;">My Cart</label>
 		<tr>
-			<th><h3>Image</h3></td>
-			<th><h3>Product Name</h3></th>
-			<th><h3>Size</h3></th>
-			<th><h3>Quantity</h3></th>
-			<th><h3>Price</h3></th>
-			<th><h3>Add</h3></th>
-			<th><h3>Remove</h3></th>
-			<th><h3>Subtotal</h3></th>
+			<th><p>Image</p></td>
+			<th><p>Product Name</p></th>
+			<th><p>Size</p></th>
+			<th><p>Quantity</p></th>
+			<th><p>Price</p></th>
+			<th><p>Add</p></th>
+			<th><p>Remove</p></th>
+			<th><p>Subtotal</p></th>
 		</tr>
 
 <?php
@@ -174,14 +173,14 @@ if (isset($_SESSION['cart']))
 
 
 		echo "<tr class='table'>";
-		echo "<td><h4><img height='70px' width='70px' src='photo/".$image."'></h4></td>";
-		echo "<td><h4><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</h4></td>";
-		echo "<td><h4>".$product_size."</h4></td>";
-		echo "<td><h4><input type='hidden' required value='".$x."' name='qty[]'> ".$x."</h4></td>";
-		echo "<td><h4>".$price."</h4></td>";
-		echo "<td><h4><a href='cart.php?id=".$id."&action=add'><i class='icon-plus-sign'></i></a></td>";
-		echo "<td><h4><a href='cart.php?id=".$id."&action=remove'><i class='icon-minus-sign'></i></a></td>";
-		echo "<td><strong><h3>P ".$line_cost."</h3></strong>";
+		echo "<td><p><img height='70px' width='70px' src='photo/".$image."'></p></td>";
+		echo "<td><p><input type='hidden' required value='".$id."' name='pid[]'> ".$name."</p></td>";
+		echo "<td><p>".$product_size."</h4></td>";
+		echo "<td><p><input type='hidden' required value='".$x."' name='qty[]'> ".$x."</p></td>";
+		echo "<td><p>".$price."</p></td>";
+		echo "<td><p><a href='cart.php?id=".$id."&action=add'><i class='icon-plus-sign'></i></a></p></td>";
+		echo "<td><p><a href='cart.php?id=".$id."&action=remove'><i class='icon-minus-sign'></i></a></p></td>";
+		echo "<td><strong><p>P ".$line_cost."</p></strong></td>";
 		echo "</tr>";
 		}
 
@@ -190,8 +189,8 @@ if (isset($_SESSION['cart']))
 		echo "<td></td>";
 		echo "<td></td>";
 		echo "<td></td>";
-		echo "<td><h2>TOTAL:</h2></td>";
-		echo "<td><strong><input type='hidden' value='".$total."' required name='total'><h2 class='text-danger'>P ".$total."</h2></strong></td>";
+		echo "<td><p>TOTAL:</p></td>";
+		echo "<td><strong><input type='hidden' value='".$total."' required name='total'><p class='text-danger'>P ".$total."</p></strong></td>";
 		echo "<td></td>";
 		echo "<td><a class='btn btn-danger btn-sm pull-right' href='cart.php?id=".$id."&action=empty'><i class='fa fa-trash-o'></i> Empty cart</a></td>";
 		echo "</tr>";

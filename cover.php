@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ALPHA</title>
+    <title>E-Karinderya</title>
 
     <!-- Bootstrap core CSS -->
     <link href="cover/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -67,7 +67,7 @@
 
   </body>
 <img src="img/logo1.png" style="position:absolute; top : 40%; left:40%; transform: translate(-50%, -50%); filter:drop-shadow(15px 10px 4px #0e0e0e);" >
-<h1 style="position:absolute; top : 40%; left:55%; transform: translate(-50%, -50%); color:white; font-weight: bolder; font-size: 8em; filter:drop-shadow(15px 10px 4px #0e0e0e);">LPHA</h1>
+<h1 style="position:absolute; top : 40%; left:55%; transform: translate(-50%, -50%); color:white; font-weight: bolder; font-size: 8em; filter:drop-shadow(15px 10px 4px #0e0e0e);">E-Karinderya</h1>
 
 <a href="index.php"><h4 style="position:absolute; top : 65%; left:50%; transform: translate(-50%, -50%); color:white; font-weight: bolder; border-style: solid; padding: 10px 2em 10px 2em; filter:drop-shadow(0px 0px 10px crimson);">START SHOPPING</h4></a>
 </html>

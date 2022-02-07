@@ -28,7 +28,7 @@
 <body>
 	<div id="header">
 		<img src="img/logo1.png">
-		<label style="font-weight: bold;font-family: century gothic;">E-Karinderya</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -39,7 +39,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 
@@ -89,12 +89,7 @@
 				</div>
 					</form>
 			</div>
-
-
-
-	<br>
-<div id="container">
-	<div class="nav">
+		<div class="nav">
 			 <ul>
 				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a></li>
@@ -103,31 +98,33 @@
 				<li><a href="privacy1.php"><i class="icon-info-sign"></i>Privacy Policy</a></li>
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
-</div>
-		<h3 style="font-weight: bold;font-family: century gothic;"><span style="color: #f89406;">About </span>Us</h3>
-						<div id="content">
-							<h4 style="text-align:justify;text-indent:60px;">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </h4>
-							<br />
-
-				</div>
-			<br />
-</div>
-	<div id="footer">
-		<div class="foot">
-			<label style="font-size:17px;"> Copyright &copy; </label>
-			<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
 		</div>
+		<div id="container">
 
-			<div id="foot">
-	<ul style="list-style-type: none; ">
-	<li>
-						<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
-						<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
-						<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
-						<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
-	</li>
-</ul>
-			</div>
+<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">About </span>Us</h3>
+	<div id="content">
+		<p style="text-align:justify;text-indent:60px; color:black; ">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </p>
+		<br />
+
 	</div>
+<br />
+</div>
+<div id="footer" style="top: 180px;">
+	<div class="foot">
+		<label style="font-size:17px;"> Copyright &copy; </label>
+		<p style="font-weight: bold;font-family: century gothic; font-size: 25px;">Group 7 - 2022</p>
+	</div>
+
+		<div id="foot">
+<ul style="list-style-type: none; ">
+<li>
+					<a href="http://www.facebook.com/"  class="fa fa-facebook-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;" ></a>
+					<a href="http://www.twitter.com/" class="fa fa-twitter-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
+					<a href="http://www.pinterest.com/" class="fa fa-pinterest-square" style="color:white; padding: 10px 10px 10px 10px; font-size: 2em;"></a>
+					<a href="http://www.tumblr.com/" class="fa fa-tumblr-square" style="color:white; padding:10px 10px 10px 10px; font-size: 2em;"></a>
+			</li>
+		</ul>
+	</div>
+</div>
 </body>
 </html>

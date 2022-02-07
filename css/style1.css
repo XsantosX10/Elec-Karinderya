@@ -64,6 +64,24 @@
 		width:1150px;
 	}
 
+#container-aboutUS{
+	margin: auto;
+	width:1000px;
+}
+
+#container-aboutUs h3{
+	margin-left: 260px;
+}
+
+#content-aboutUs{
+	border: #F76E11 1px solid;
+}
+
+#content-aboutUs p{
+	font-size: 18px;
+	padding: 20px;
+}
+
 
 #content
 	{
@@ -163,7 +181,7 @@
 
 .nav1 ul li a:hover
 	{
-		color:#111;
+		color:#F76E11;
 	}
 
 /*.content
@@ -239,8 +257,8 @@
 
 .active
 	{
-		color:#000;
-		border-bottom:5px solid #111;
+		color: #F76E11;
+		border-bottom:5px solid #F76E11;
 		padding:10px;
 	}
 

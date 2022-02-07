@@ -99,7 +99,7 @@
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 </div>
-<div id="container">
+<div id="container-aboutUs">
 
 	<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
 		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">

@@ -106,40 +106,38 @@
 	</div>
 
 
-		<img src="img/contactus.jpg" style="width:1150px; height:250px; border:1px solid #000; ">
-	<br />
-	<br />
+	<div id="container">
 
-		<div id="content" class="container-fluid" style="background-color: #1c293f; color: white;  box-shadow: 5px 10px #888888;">
-			<form method="post">
-				<table style="position:relative; left:25%;">
-					<tr>
-						<td style="font-size:20px;">Email:</td><td><input type="email" name="email" value="<?php echo $fetch['email']; ?>" style="width:400px;" disabled></td>
-					</tr>
-					<tr>
-						<td style="font-size:20px;">Message:</td><td><textarea name="message" style="width:400px; height:300px;" required></textarea></td>
-					</tr>
-					<tr>
-						<td></td><td><button class="btn btn-info" name="send" style="width:300px;"><i class="icon icon-ok icon-white"></i>Submit</button>&nbsp;<a href="index.php"><button class="btn btn-danger" style="width:110px;"><i class="icon icon-remove icon-white"></i>Cancel</button></a></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-		<?php
+		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
+			<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
+				<form method="post">
+					<table style="position:relative; left:25%;">
+						<tr>
+							<td style="font-size:20px;">Email:</td><td><input type="email" name="email" placeholder="Email" style="width:400px;"></td>
+						</tr>
+						<tr>
+							<td style="font-size:20px;">Message:</td><td><textarea name="message" style="width:400px; height:300px;" required></textarea></td>
+						</tr>
+						<tr>
+							<td></td><td><button class="btn btn-info" name="send" style="width:300px;"><i class="icon icon-ok icon-white"></i>Submit</button>&nbsp;<a href="index.php"><button class="btn btn-danger" style="width:110px;"><i class="icon icon-remove icon-white"></i>Cancel</button></a></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<?php
 
 
-			if(isset($POST['send']));
-			{
-				@$email = $_POST['email'];
-				@$message = $_POST['message'];
+				if(isset($POST['send']));
+				{
+					@$email = $_POST['email'];
+					@$message = $_POST['message'];
 
-				mysqli_query ($conn, "INSERT INTO `contact` (email, message) VALUES ('$email', '$message')") or die (mysqli_error());
-			}
-		?>
+					mysqli_query ($conn, "INSERT INTO `contact` (email, message) VALUES ('$email', '$message')") or die (mysql_error());
+				}
+			?>
 
-	<br />
-</div>
-</div>
+		<br />
+	</div>
 	<br />
 	<div id="footer">
 		<div class="foot">

@@ -105,26 +105,24 @@
 			</ul>
 	</div>
 
-	<br />
-	<br />
+	<div id="container">
 
 		<div id="content">
-			<legend>Frequently Added Questions</legend>
+			<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;">Frequently <span style="color: #f89406;">Asked </span>Questions</h3>
+			<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
+					 <h4 style="padding: 0 20px 0 20px;">What payment methods can I use?</h4>
+						<p style="text-indent:60px; padding: 10px 20px 10px 20px;">For payment on E-Karinderya, we accept only Cash On Delivery in mods of payment.</p>
 
-				 <h4>DO YOU SHIP?</h4>
-					<p style="text-indent:60px;">Yes, we ship the products via LBC and 2GO only.</p>
-				<hr>
-					<h4>DO YOU DELIVER?</h4>
-						<p style="text-indent:60px;">No, We only offer Shipping.</p>
-				<hr>
-					<h3>WHEN WILL I GET MY ORDERS?</h3>
-						<p style="text-indent:60px;">We wil ship your product 2-3 days around Negros Occidental and It will take 4-6 days Nationwide.</p>
-				<hr>
-					<h3>HOW DO I PAY MY ORDERS?</h3>
-					<p style="text-indent:60px;">Through PAYPAL basis only.</p>
+					<h4 style="padding: 0 20px 0 20px;">How do I sign up as user?</h4>
+							<p style="text-indent:60px; padding: 10px 20px 10px 20px;"">To sign up in E-Karinderya webpage you need to provide some needed credential and especially email and cellphone number.</p>
 
+					<h4 style="padding: 0 20px 0 20px;">How long is delivery time?</h4>
+							<p style="text-indent:60px; padding: 10px 20px 10px 20px;">Delivery time varies by location and by time of day. However, you will be notified when your order is ready or when it is picked up. </p>
+
+							<p style="text-indent:60px; padding: 10px 20px 10px 20px;">You will also be notified if there is an unusual delay with your order preparation or delivery.</p>
+				</div>
+			</div>
 		</div>
-</div>
 	<br />
 <div>
 	<br />

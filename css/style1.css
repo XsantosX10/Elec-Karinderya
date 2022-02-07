@@ -49,7 +49,7 @@
 #header ul li a
 	{
 		text-decoration:none;
-		color: white;
+		color: black;
 	}
 
 #header ul li a:hover
@@ -113,7 +113,7 @@
 		margin-left: 86px;
 		width:700px;
 		height:300px;
-	}	
+	}
 
 .welcomeNote{
 	text-align: center;

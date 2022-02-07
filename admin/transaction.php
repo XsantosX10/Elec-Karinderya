@@ -171,7 +171,7 @@
 			<br />
 			
 			<div class="alert alert-info">
-			<table class="table table-hover" style="background-color:;">
+			<table class="table table-hover">
 				<thead>
 				<tr style="font-size:16px;">
 					<th>ID</th>

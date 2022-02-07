@@ -3801,8 +3801,8 @@
  
  .alert-info {
   color: black;
-  background-color: #faa732;
-  border-color: #faa732;
+  background-color: whitesmoke;
+  border-color: black;
 }
 
 .alert-info h4 {

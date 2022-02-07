@@ -3,6 +3,7 @@
 
 *{
 	font-family: 'Poppins', sans-serif;
+	margin: 0 auto 0 auto;
 }
 	#header
 	{
@@ -67,6 +68,8 @@
 #content
 	{
 		top:10px;
+		padding: 0 50px 50px;
+		width: 1000px;
 	}
 
 .nav {

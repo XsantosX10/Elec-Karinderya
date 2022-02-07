@@ -94,10 +94,10 @@
 
 <div id="container">
 
-	<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
+		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">Contact </span>Us</h3>
 		<div id="content" class="container-fluid" style="color: #111; border: 1px solid orange; padding: 20px 0 20px 0;">
 			<form method="post">
-				<table style="position:relative; left:25%;">
+				<table style="position:center; left:25%;">
 					<tr>
 						<td style="font-size:20px;">Email:</td><td><input type="email" name="email" placeholder="Email" style="width:400px;"></td>
 					</tr>
@@ -122,7 +122,7 @@
 			}
 		?>
 
-	<br />
+	<br>
 </div>
 	<br />
 	<div id="footer">

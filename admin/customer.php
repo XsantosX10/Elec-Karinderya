@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karindeya</title>
 	<link rel = "stylesheet" type = "text/css" href="../css/style1.css" media="all">
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap1.css">
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/jquery-1.7.2.min.js"></script>
 	<script src="../js/carousel.js"></script>
@@ -27,7 +27,7 @@
 <body>
 	<div id="header" style="position:fixed;">
 		<img src="../img/logo1.png">
-		<label>ALPHA</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 		
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -38,7 +38,7 @@
 				
 			<ul>
 				<li><a href="../function/admin_logout.php" class="btn btn-danger"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a><i class="icon-user icon-white"></i><?php echo $fetch['username']; ?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['username']; ?></a></li>
 			</ul>
 	</div>
 	
@@ -49,10 +49,10 @@
 			<li><a href="admin_home.php" style="color:#333;">Dashboard</a></li>
 			<li><a href="admin_home.php">Products</a>
 				<ul>
-					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Features</a></li>
-					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Basketball</a></li>
-					<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Football</a></li>
-					<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Running</a></li>
+					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Products</a></li>
+					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Main Course</a></li>
+					<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Dessert</a></li>
+					<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Drinks</a></li>
 				</ul>
 			</li>
 			<li><a href="transaction.php">Transactions</a></li>
@@ -63,10 +63,13 @@
 	</div>
 	
 	<div id="rightcontent" style="position:absolute; top:10%;">
+	<br>
 			<div class="alert alert-info"><center><h2>Customers</h2></center></div>
-			<br />
+			<br>
 				<label  style="padding:5px; float:right;"><input type="text" name="filter" placeholder="Search Customers here..." id="filter"></label>
 			<br />
+			<br>
+			<br>
 		
 		<div class="alert alert-info">
 			<table class="table table-hover" style="background-color:;">

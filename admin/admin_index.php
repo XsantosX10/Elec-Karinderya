@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel="icon" href="../img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="../css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap1.css">
@@ -20,17 +20,17 @@
 	<script src="js/transition.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 </head>
-<body style="background-color:  #243a61;">
+<body style="background-color: whitesmoke;">
 	<div id="header">
 		<img src="../img/logo1.png">
-		<label>ALPHA</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 	</div>
 	
 		<?php include('../function/admin_login.php');?>
-	<div id="admin" style="	background-color:  #243a61;">
+	<div id="admin" style="	background-color:  whitesmoke;">
 		<form method="post" class="well">
 			<center>
-				<legend>Adminstrator</legend>
+				<legend>Administrator</legend>
 					<table>
 						<tr>
 							<input type="text" name="username" placeholder="Username">

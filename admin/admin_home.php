@@ -5,7 +5,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
+	<link rel="icon" href="../img/logo1.png" />
 	<link rel = "stylesheet" type = "text/css" href="../css/style1.css" media="all">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap1.css">
 	<script src="../js/bootstrap.js"></script>
@@ -55,7 +56,7 @@ $(function () {
             plotShadow: false
         },
         title: {
-            text: 'Products share of Shoe Brands as of year <?php echo $date = date("Y"); ?>'
+            text: 'Products share of Food as of year <?php echo $date = date("Y"); ?>'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -102,7 +103,7 @@ $(function () {
 
 	<div id="header" style="position:fixed;">
 		<img src="../img/logo1.png">
-		<label>ALPHA</label>
+		<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 		
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -114,7 +115,7 @@ $(function () {
 				
 			<ul>
 				<li><a href="../function/admin_logout.php" class="btn btn-danger"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a><i class="icon-user icon-white"></i><?php echo $fetch['username']; ?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a style="color:black;"><i class="icon-user icon-black"></i><?php echo $fetch['username']; ?></a></li>
 			</ul>
 	</div>
 	
@@ -125,10 +126,10 @@ $(function () {
 			<li><a href="admin_home.php" style="color:#333;">Dashboard</a></li>
 			<li><a href="admin_home.php">Products</a>
 				<ul>
-					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Features</a></li>
-					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Basketball</a></li>
-					<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Football</a></li>
-					<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Running</a></li>
+					<li><a href="admin_feature.php "style="font-size:15px; margin-left:15px;">Products</a></li>
+					<li><a href="admin_product.php "style="font-size:15px; margin-left:15px;">Main Course</a></li>
+					<li><a href="admin_football.php" style="font-size:15px; margin-left:15px;">Dessert</a></li>
+					<li><a href="admin_running.php"style="font-size:15px; margin-left:15px;">Drinks</a></li>
 				</ul>
 			</li>
 			<li><a href="transaction.php">Transactions</a></li>

@@ -5,9 +5,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ALPHA</title>
+	<title>E-Karinderya</title>
 	<link rel = "stylesheet" type = "text/css" href="../css/style1.css" media="all">
-	<link rel="stylesheet" type="text/css" href="../css/bootstrap1.css">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 	<script src="../js/bootstrap.js"></script>
 	<script src="../js/jquery-1.7.2.min.js"></script>
 	<script src="../js/carousel.js"></script>
@@ -60,8 +60,8 @@
 </head>
 <body>
 	<div id="header" style="position:fixed;">
-		<img src="../img/logo1.png">
-		<label>ALPHA</label>
+	<img src="../img/logo1.png">
+	<label style="font-weight: bold;font-family: 'Poppins', sans-serif;">E-Karinderya</label>
 		
 			<?php
 				$id = (int) $_SESSION['id'];
@@ -71,8 +71,8 @@
 			?>
 				
 			<ul>
-				<li><a href="../function/admin_logout.php"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<i class="icon-user icon-white"></i><?php echo $fetch['username']; ?></a></li>
+				<li><a href="../function/admin_logout.php" class="btn btn-danger"><i class="icon-off icon-white"></i>logout</a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<i class="icon-user icon-black"></i><?php echo $fetch['username']; ?></a></li>
 			</ul>
 	</div>
 	
@@ -194,7 +194,7 @@
 	<div id="printablediv">
 	<center> 
 	<table class="table" style="width:50%;">
-	<label style="font-size:25px;">Alpha Inc.</label>
+	<label style="font-size:25px;">E-Karinderya</label>
 	<label style="font-size:20px;">Official Receipt</label>
 		<tr>
 			<th><h5>Quantity</h5></td>

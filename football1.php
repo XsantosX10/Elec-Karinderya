@@ -38,7 +38,7 @@
 
 			<ul>
 				<li><a href="function/logout.php" class="btn btn-success"><i class="icon-off icon-white"></i>logout</a></li>
-				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
+				<li>Welcome:&nbsp;&nbsp;&nbsp;<a href="#profile" href  data-toggle="modal" style="color:black;"><i class="icon-user icon-white"></i><?php echo $fetch['firstname']; ?>&nbsp;<?php echo $fetch['lastname'];?></a></li>
 			</ul>
 	</div>
 

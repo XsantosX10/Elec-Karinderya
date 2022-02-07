@@ -99,15 +99,15 @@
 				<li><a href="faqs1.php"><i class="icon-question-sign"></i>FAQs</a></li>
 			</ul>
 		</div>
-		<div id="container">
+	<div id="container">
 
-<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">About </span>Us</h3>
-	<div id="content">
-		<p style="text-align:justify;text-indent:60px; color:black; ">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </p>
+		<h3 style="font-weight: bold;font-family: 'Poppins', sans-serif;"><span style="color: #f89406;">About </span>Us</h3>
+			<div id="content">
+				<p style="text-align:justify;text-indent:60px; color:black; ">We are the students of BSIT 3D-NS who created this simple webpage named E-karinderya that provides online base food delivery service for us able to reduce physical contact in this time of pandemic that helps to reduce the transition rate of the virus and to save time and effort. Our objective is to create a web page with login and sign up of accounts tab for users, menu for the food, tab about the owner of the business and tab for orders confirmation. One of its goals is to at least reduce the physical contact we need to experience when purchasing food outside and to provide more convenient and effortless food shopping. </p>
+				<br />
+
+			</div>
 		<br />
-
-	</div>
-<br />
 </div>
 <div id="footer" style="top: 180px;">
 	<div class="foot">

@@ -91,7 +91,7 @@
 				</div>
 					</form>
 			</div>
-	<div class="nav">
+		<div class="nav">
 				<ul>
 					<li><a href="index.php"><i class="icon-home"></i>Home</a></li>
 					<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>

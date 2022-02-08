@@ -250,7 +250,7 @@
 
 #product img:hover
 	{
-		border:8px groove #ccc;
+		border: 2px solid #F76E11;
 		width:280px;
 		height:210px;
 	}

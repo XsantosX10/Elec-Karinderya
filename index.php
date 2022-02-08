@@ -129,7 +129,7 @@
 
 	<div id="content">
 		<div id="product" style="position:relative; margin-top:25%;">
-			<center><h3 style="color: black;">Best Sellers</h3></center>
+			<center><h3 style="color: black; margin-left:-100px;">Best Sellers</h3></center>
 			<br />
 
 			<?php

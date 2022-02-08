@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.0
+-- version 5.1.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 23, 2018 at 08:53 AM
--- Server version: 10.1.24-MariaDB
--- PHP Version: 7.1.6
+-- Generation Time: Feb 08, 2022 at 06:00 AM
+-- Server version: 10.4.19-MariaDB
+-- PHP Version: 8.0.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -53,6 +52,88 @@ CREATE TABLE `contact` (
   `message` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `contact`
+--
+
+INSERT INTO `contact` (`contact_id`, `email`, `message`) VALUES
+(1, '', ''),
+(2, '', ''),
+(3, '', ''),
+(4, '', ''),
+(5, '', ''),
+(6, '', ''),
+(7, '', ''),
+(8, '', ''),
+(9, '', ''),
+(10, '', ''),
+(11, '', ''),
+(12, '', ''),
+(13, '', ''),
+(14, '', ''),
+(15, '', ''),
+(16, '', ''),
+(17, '', ''),
+(18, '', ''),
+(19, '', ''),
+(20, '', ''),
+(21, '', ''),
+(22, '', ''),
+(23, '', ''),
+(24, '', ''),
+(25, '', ''),
+(26, '', ''),
+(27, '', ''),
+(28, '', ''),
+(29, '', ''),
+(30, '', ''),
+(31, '', ''),
+(32, '', ''),
+(33, '', ''),
+(34, '', ''),
+(35, '', ''),
+(36, '', ''),
+(37, '', ''),
+(38, '', ''),
+(39, '', ''),
+(40, '', ''),
+(41, '', ''),
+(42, '', ''),
+(43, '', ''),
+(44, '', ''),
+(45, '', ''),
+(46, '', ''),
+(47, '', ''),
+(48, '', ''),
+(49, '', ''),
+(50, '', ''),
+(51, '', ''),
+(52, '', ''),
+(53, '', ''),
+(54, '', ''),
+(55, '', ''),
+(56, '', ''),
+(57, '', ''),
+(58, '', ''),
+(59, '', ''),
+(60, '', ''),
+(61, '', ''),
+(62, '', ''),
+(63, '', ''),
+(64, '', ''),
+(65, '', ''),
+(66, '', ''),
+(67, '', ''),
+(68, '', ''),
+(69, '', ''),
+(70, '', ''),
+(71, '', ''),
+(72, '', ''),
+(73, '', ''),
+(74, '', ''),
+(75, '', ''),
+(76, '', '');
+
 -- --------------------------------------------------------
 
 --
@@ -72,6 +153,13 @@ CREATE TABLE `customer` (
   `email` varchar(50) NOT NULL,
   `password` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `customer`
+--
+
+INSERT INTO `customer` (`customerid`, `firstname`, `mi`, `lastname`, `address`, `country`, `zipcode`, `mobile`, `telephone`, `email`, `password`) VALUES
+(1, 'Ej', 'D', 'Viloria', 'Bacoor', 'Cavite', '4102', '911', '119', 'vloading@localhost.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -94,33 +182,25 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_size`, `product_image`, `brand`, `category`) VALUES
-(3, 'Nike Air Max Neon', '12000', '7', '1141103372nike15.jpg', 'Nike', 'basketball'),
-(4, 'Nike Air Max Green', '12000', '8', '832975975nike5.jpg', 'Nike', 'basketball'),
-(6, 'Adidas Gent', '13000', '9', '13634363832010-Adidas-Men-Basketball-Shoes-2.jpg', 'Adidas', 'basketball'),
-(7, 'Adidas 599 LRG', '15000', '8', '872686791Adidas Basketball Shoes 599_LRG.jpg', 'Adidas', 'basketball'),
-(8, 'Lebron 11 Siver', '18000', '8', '124030907nike13.jpg', 'Nike', 'basketball'),
-(9, 'Adidas Adizero Black', '18000', '10', '14237873113-adidas-Rose-Dominate-Adizero-shoes.jpg', 'Adidas', 'basketball'),
-(10, 'Adidas Adizero Blue', '18000', '10', '1024158586Adidas_Rose_Shoes_009.jpg', 'Adidas', 'basketball'),
-(11, 'Lebron 11 Red', '18000', '9', '567507982nike10.jpg', 'Nike', 'basketball'),
-(13, 'Nike Hypervenom', '10000', '12', '1312216564nike-hypervenoms-customize-fg-2015-outlet-neymar-colors-soccer-shoes-professional.jpg', 'Nike', 'football'),
-(14, 'Nike C Lou Generation', '12000', '11', '533123642013_Discount_Nike_C_Luo_9_Generation_Online_Blue_Green.jpg', 'Nike', 'football'),
-(15, 'Nike Mercurial Vapor 7 Superfly II FG Lightning', '12000', '12', '1157463277Nike-Mercurial-Vapor-7-Superfly-III-FG-Lightning-Soccer-Shoes-Fluorescent-Yellow-Black.jpg', 'Nike', 'football'),
-(16, 'Nike Magista Obra', '12000', '9', '335092704Cheap-Nike-Magista-Obra-.jpg', 'Nike', 'football'),
-(17, 'Adidas Chaussures', '12000', '8', '697721412chaussures001.jpg', 'Adidas', 'football'),
-(19, 'Nike Flyknit Lunar Green Blue', '8000', '9', '745184160Nike_Nike_Flyknit_Lunar_2_Mens_Fluorescent_Green_Blue_Running_Shoes_2015_Outlet.jpg', 'Nike', 'Running'),
-(20, 'Nike Flyknit Lunar Sea Blue', '8000', '10', '1239262802Nike_Nike_Flyknit_Lunar_2_Mens_Sky_Blue_Sea_Blue_Running_Shoes_2015_Cheap.jpg', 'Nike', 'Running'),
-(21, 'Nike Flyknit Green', '8000', '12', '470680173flyknit.jpg', 'Nike', 'Running'),
-(26, 'Nike Hypervenom Phantom', '15000', '8', '15416832542014-Nike-Hypervenom-Phantom-FG-Red-Fluorescent-Yellow.jpg', 'Nike', 'football'),
-(28, 'Adidas Adizero Red', '18000', '9', '153564340adidas-all-star-basketball-shoes-adizero-shadow.jpg', 'Adidas', 'basketball'),
-(29, 'Adidas Gents', '10000', '9', '14124685402-Adidas-gents-shoes-collection-2015-01.jpg', 'Adidas', 'Running'),
-(30, 'Nike Flyknit Gray & Pink', '8000', '11', '948731815nw1.jpg', 'Nike', 'Running'),
-(31, 'Reebok Zigtech Shake', '10000', '10', '245113227reebok-zigtech-shake-running-shoes-offer-lemonstore-1405-13-lemonstore@1.jpg', 'Reebok', 'Running'),
-(157, 'Reebok Blast', '10000', '9', '547866585reebok-blast-profile.jpg', 'Reebok', 'feature'),
-(21561, 'Lebron 11 ', '15000', '10', '1125171488heat-lebron-11-17.jpg', 'Nike', 'feature'),
-(51292, 'Adidas Adizero F50', '10000', '10', '1272267959adizero-F50-FG.jpg', 'Adidas', 'feature'),
-(358159, 'Flyknit 360', '8000', '8', '40329068flyknit.jpg', 'Nike', 'feature'),
-(431860, 'Nike Hypervenom Neymar Jr.', '12000', '9', '852236910hypervenom.png', 'Nike', 'feature'),
-(961461, 'Adidas Bounce Titan', '9000', '9', '367527167Rabatt_Prezzo_Ridotto_Adidas_Bounce_Titan_Herren_White_Schwarz_Running_Sho_Online.jpg', 'Adidas', 'feature');
+(7, 'Dirty Ice Cream', '15', 'L', '80224519255686339icecream.jpg', 'E-Karinderya', 'football'),
+(325, 'package', '1000', 'L', '27033752226889033background.jpg', 'E-Karinderya', 'Main Course'),
+(494, 'Leche Flan', '40', 'L', '59676697709133511letche flan.jpg', 'E-Karinderya', 'football'),
+(820, 'Menudo', '60', 'L', '8288952905803137Menudo.jpg', 'E-Karinderya', 'basketball'),
+(3943, 'Halo-Halo', '25', 'L', '65321350523106636halohalo.jpg', 'E-Karinderya', 'football'),
+(4914, 'Beef Steak', '60', 'L', '66736405327985857BeefSteak.jpg', 'E-Karinderya', 'basketball'),
+(5287, 'Fried Tilapia', '35', 'L', '1600515251639523pritongtilaps.jpg', 'E-Karinderya', 'basketball'),
+(8075, 'Pinipig Ice Cream', '15', 'L', '6757550198866966pinipig.jpg', 'E-Karinderya', 'football'),
+(9151, 'Sisig', '60', 'L', '87235931586617575sisig.jpg', 'E-Karinderya', 'basketball'),
+(16438, 'Coca-cola', '25', 'L', '49188846243529815cocacola.jpg', 'Coca-cola', 'Running'),
+(37166, 'Pork Sinigang', '60', 'L', '91659725283771895sinigang.jpg', 'E-Karinderya', 'basketball'),
+(80764, 'Ice Scramble', '15', 'L', '12839152236201030icecramble.jpg', 'E-Karinderya', 'football'),
+(88475, 'Pakbet', '30', 'L', '46845899202153544pakbet.jpg', 'E-Karinderya', 'basketball'),
+(99231, 'Adobong Baboy', '50', 'L', '6339832205838474AdobongBaboy.jpg', 'Karinderya', 'basketball'),
+(111562, 'Ice Tea', '20', 'L', '67690401023963368nestea.jpg', 'Nestea', 'Running'),
+(207604, 'Sprite', '25', 'L', '2816965688719991sprite.jpg', 'Sprite', 'Running'),
+(422318, 'Royal', '25', 'L', '4967416295023014royal.jpg', 'Royal', 'Running'),
+(637103, 'Tinola', '60', 'L', '69346124397235580tinula.jpg', 'E-Karinderya', 'basketball'),
+(8975876, 'Chapsuey', '30', 'L', '8086136211730436chapsoy.jpg', 'E-Karinderya', 'basketball');
 
 -- --------------------------------------------------------
 
@@ -167,7 +247,28 @@ INSERT INTO `stock` (`stock_id`, `product_id`, `qty`) VALUES
 (28, 358159, 30),
 (29, 157, 25),
 (30, 51292, 20),
-(31, 961461, 22);
+(31, 961461, 22),
+(32, 7783, 0),
+(33, 62905, 1),
+(34, 99231, 8),
+(35, 9151, 6),
+(36, 325, 6),
+(37, 88475, 10),
+(38, 4914, 10),
+(39, 8975876, 13),
+(40, 820, 13),
+(41, 5287, 13),
+(42, 37166, 9),
+(43, 637103, 16),
+(44, 3943, 10),
+(45, 80764, 10),
+(46, 7, 13),
+(47, 494, 11),
+(48, 8075, 14),
+(49, 16438, 25),
+(50, 111562, 15),
+(51, 422318, 25),
+(52, 207604, 25);
 
 -- --------------------------------------------------------
 
@@ -183,6 +284,14 @@ CREATE TABLE `transaction` (
   `order_date` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Dumping data for table `transaction`
+--
+
+INSERT INTO `transaction` (`transaction_id`, `customerid`, `amount`, `order_stat`, `order_date`) VALUES
+(1, 1, 50, 'Confirmed', 'Feb 08, 2022'),
+(48948, 1, 150, 'Confirmed', 'Feb 08, 2022');
+
 -- --------------------------------------------------------
 
 --
@@ -195,6 +304,14 @@ CREATE TABLE `transaction_detail` (
   `order_qty` int(11) NOT NULL,
   `transaction_id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `transaction_detail`
+--
+
+INSERT INTO `transaction_detail` (`transacton_detail_id`, `product_id`, `order_qty`, `transaction_id`) VALUES
+(1, 99231, 1, 1),
+(2, 99231, 3, 48948);
 
 --
 -- Indexes for dumped tables
@@ -251,26 +368,31 @@ ALTER TABLE `transaction_detail`
 --
 ALTER TABLE `admin`
   MODIFY `adminid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `contact_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `contact_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+
 --
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `customerid` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `customerid` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
 --
 -- AUTO_INCREMENT for table `stock`
 --
 ALTER TABLE `stock`
-  MODIFY `stock_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `stock_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
+
 --
 -- AUTO_INCREMENT for table `transaction_detail`
 --
 ALTER TABLE `transaction_detail`
-  MODIFY `transacton_detail_id` int(11) NOT NULL AUTO_INCREMENT;COMMIT;
+  MODIFY `transacton_detail_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

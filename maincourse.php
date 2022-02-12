@@ -115,11 +115,11 @@
 
 	<div class="nav1">
 		<ul>
-			<li><a href="product.php" class="active" style="color:#111;">Main Course</a></li>
+			<li><a href="maincourse.php" class="active" style="color:#111;">Main Course</a></li>
 			<li>|</li>
-			<li><a href="football.php">Dessert</a></li>
+			<li><a href="dessert.php">Dessert</a></li>
 			<li>|</li>
-			<li><a href="running.php">Drinks</a></li>
+			<li><a href="drinks.php">Drinks</a></li>
 		</ul>
 
 	</div>

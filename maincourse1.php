@@ -6,9 +6,10 @@
 <html>
 <head>
 	<title>E-Karinderya</title>
-	<link rel="stylesheet" type = "text/css" href="css/style1.css" media="all">
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="icon" href="img/logo1.png" />
+	<link rel = "stylesheet" type = "text/css" href="css/style1.css" media="all">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<script src="js/bootstrap.js"></script>
 	<script src="js/jquery-1.7.2.min.js"></script>
 	<script src="js/carousel.js"></script>
@@ -88,12 +89,9 @@
 				</div>
 					</form>
 			</div>
-			
-<div id="container">
 
-	<div class="nav">
-
-			 <ul>
+		<div class="nav">
+			<ul>
 				<li><a href="home.php"><i class="icon-home"></i>Home</a></li>
 				<li><a href="product1.php"><i class="icon-th-list"></i>Product</a>
 				<li><a href="aboutus1.php"><i class="icon-bookmark"></i>About Us</a></li>
@@ -103,25 +101,30 @@
 			</ul>
 		</div>
 
+<div id="container">
+	<?php echo "<a href='cart.php?id=".$id."&action=view'><button class='btn btn-inverse' style='right:3%; position:fixed; bottom:10%; border-radius:100px;'><i class='icon-shopping-cart icon-white'></i></button></a>" ?>
+
 		<div class="nav1">
 			<ul>
-				<li><a href="product1.php">Main Course</a></li>
+				<li><a href="maincourse1.php" class="active" style="color:#111;">Main Course</a></li>
 				<li>|</li>
-				<li><a href="football1.php">Dessert</a></li>
+				<li><a href="dessert1.php">Dessert</a></li>
 				<li>|</li>
-				<li><a href="running1.php" class="active" style="color:#111;">Drinks</a></li>
+				<li><a href="drinks1.php">Drinks</a></li>
 			</ul>
-				<a href="cart.php"><button class="btn btn-inverse" style="right:1%; position:fixed; top:10%;"><i class="icon-shopping-cart icon-white"></i> View Cart</button></a>
+
 		</div>
 
 	<div id="content">
-		<br>
-		<br>
+		<br />
+		<br />
 		<div id="product">
+			<form method="post">
 
 			<?php
+				include ('function/addcart.php');
 
-				$query = mysqli_query($conn, "SELECT *FROM product WHERE category='running' ORDER BY product_id DESC") or die (mysqli_error());
+				$query = mysqli_query($conn, "SELECT *FROM product WHERE category='basketball' ORDER BY product_id DESC") or die (mysqli_error());
 
 					while($fetch = mysqli_fetch_array($query))
 						{
@@ -142,13 +145,13 @@
 							echo "<br />";
 							echo "P ".$fetch['product_price']."";
 							echo "<br />";
-							echo "<h3 class='text-info' style='position:absolute; margin-top:-90px; text-indent:15px;'> Size: ".$fetch['product_size']."</h3>";
 							echo "</center>";
 							echo "</div>";
 						}
-
 						}
 			?>
+
+			</form>
 		</div>
 
 
